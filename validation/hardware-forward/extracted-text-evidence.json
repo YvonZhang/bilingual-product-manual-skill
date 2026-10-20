@@ -1,0 +1,70 @@
+{
+  "brochure-en.pdf": {
+    "pages": 2,
+    "contains_model": true,
+    "contains_version": false,
+    "page_text": [
+      {
+        "page": 1,
+        "text": "PRODUCT BROCHURE\nPLC-03 | FICTIONAL PRODUCT - TEMPLATE TEST\n1\nPerch Label Checker\nFor training simulation only\nPLC-03\nTRAINING SIMULATION\nLabel sequence demonstration\nFor classroom explanations and label layout practice. Demonstrates label sequence checking and status\nclearing only.\n3\npositions\nLabel-check positions\n24\nlabels\nSingle simulated batch\n120\ns\nState retention\nApplication scenarios\nClassroom explanations\nFor classroom explanations in training\nsimulations.\nLabel layout practice\nFor label layout practice in training simulations.\n"
+      },
+      {
+        "page": 2,
+        "text": "PRODUCT BROCHURE\nPLC-03 | FICTIONAL PRODUCT - TEMPLATE TEST\n2\nHardware & system capabilities\nPLC-03\nSimulation setup and enclosure\nProvides 3 label-check positions and a simulated batch of 24 labels. For training simulation only.\nTechnical specifications\nLabel-check positions\n3 positions\nSingle simulated batch\n24 labels\nMemory\n64 MB\nState retention\n120 s\nPower supply\n9 V DC / 1 A\nExample power consumption\n4 W\nDimensions\n110 × 70 × 25 mm\nWeight\n0.22 kg\nOperating temperature\n10 °C to 35 °C\nKey Features\nLabel sequence checking\nDemonstrates label sequence checking.\nStatus clearing\nDemonstrates status clearing.\n"
+      }
+    ]
+  },
+  "brochure-zh.pdf": {
+    "pages": 2,
+    "contains_model": true,
+    "contains_version": false,
+    "page_text": [
+      {
+        "page": 1,
+        "text": "产品彩页\nPLC-03 | 虚构产品 · 模板测试\n1\n栖木标签核对器\n仅供培训模拟\nPLC-03\n培训模拟\n标签顺序核对演示\n用于课堂讲解与标签排版演练，只演示标签顺序核对与状态清除。\n3\n处\n标签检查位\n24\n张\n单次模拟批量\n120\ns\n状态保持\n应用场景\n课堂讲解\n用于课堂讲解，仅供培训模拟。\n标签排版演练\n用于标签排版演练，仅供培训模拟。\n"
+      },
+      {
+        "page": 2,
+        "text": "产品彩页\nPLC-03 | 虚构产品 · 模板测试\n2\n硬件与系统能力\nPLC-03\n模拟配置与外形\n设有 3 处标签检查位，单次模拟批量为 24 张。仅供培训模拟。\n技术参数\n标签检查位\n3 处\n单次模拟批量\n24 张\n内存\n64 MB\n状态保持\n120 s\n供电\n9 V DC / 1 A\n示例功耗\n4 W\n外形\n110 × 70 × 25 mm\n重量\n0.22 kg\n工作温度\n10 °C 至 35 °C\n功能特性\n标签顺序核对\n演示标签顺序核对。\n状态清除\n演示状态清除。\n"
+      }
+    ]
+  },
+  "specification-en.pdf": {
+    "pages": 3,
+    "contains_model": true,
+    "contains_version": false,
+    "page_text": [
+      {
+        "page": 1,
+        "text": "PRODUCT SPECIFICATION\nPLC-03 | FICTIONAL PRODUCT - TEMPLATE TEST\n1\nPerch Label Checker\nProduct Specification\nPLC-03\nProduct Overview\nPerch Label Checker is for training simulation only. It is used for classroom explanations and label layout \npractice, and demonstrates label sequence checking and status clearing only.\nLabel-check positions Single simulated batch State retention\n3 positions 24 labels 120 s"
+      },
+      {
+        "page": 2,
+        "text": "PRODUCT SPECIFICATION\nPLC-03 | FICTIONAL PRODUCT - TEMPLATE TEST\n2\nHardware and dimensions\nPLC-03\nSimulation configuration\nParameter Specification\nLabel-check positions 3 positions\nSingle simulated batch 24 labels\nMemory 64 MB\nState retention 120 s\nPower supply and consumption\nParameter Specification\nPower supply 9 V DC / 1 A\nExample power \nconsumption 4 W\nDimensions and operating environment\nParameter Specification\nDimensions 110 × 70 × 25 mm\nWeight 0.22 kg\nOperating temperature 10 °C to 35 °C"
+      },
+      {
+        "page": 3,
+        "text": "PRODUCT SPECIFICATION\nPLC-03 | FICTIONAL PRODUCT - TEMPLATE TEST\n3\nFeatures and applications\nKey Features\n• Label sequence checking: Demonstrates label sequence checking.\n• Status clearing: Demonstrates status clearing.\nApplication scenarios\nArea Example applications\nClassroom explanations For classroom explanations in training simulations.\nLabel layout practice For label layout practice in training simulations."
+      }
+    ]
+  },
+  "specification-zh.pdf": {
+    "pages": 3,
+    "contains_model": true,
+    "contains_version": false,
+    "page_text": [
+      {
+        "page": 1,
+        "text": "产品规格书\nPLC-03 | 虚构产品 · 模板测试\n1\n栖木标签核对器\n产品规格书\nPLC-03\n产品概述\n栖木标签核对器仅供培训模拟，用于课堂讲解和标签排版演练，只演示标签顺序核对与状态清除。\n标签检查位 单次模拟批量 状态保持\n3 处 24 张 120 s"
+      },
+      {
+        "page": 2,
+        "text": "产品规格书\nPLC-03 | 虚构产品 · 模板测试\n2\n硬件与结构\nPLC-03\n模拟配置\n参数 规格\n标签检查位 3 处\n单次模拟批量 24 张\n内存 64 MB\n状态保持 120 s\n供电与功耗\n参数 规格\n供电 9 V DC / 1 A\n示例功耗 4 W\n外形与工作环境\n参数 规格\n外形 110 × 70 × 25 mm\n重量 0.22 kg\n工作温度 10 °C 至 35 °C"
+      },
+      {
+        "page": 3,
+        "text": "产品规格书\nPLC-03 | 虚构产品 · 模板测试\n3\n功能与应用\n功能特性\n• 标签顺序核对: 演示标签顺序核对。\n• 状态清除: 演示状态清除。\n应用场景\n领域 场景示例\n课堂讲解 用于课堂讲解，仅供培训模拟。\n标签排版演练 用于标签排版演练，仅供培训模拟。"
+      }
+    ]
+  }
+}

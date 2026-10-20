@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "font_family": "Source Han Sans CN",
+  "colors": {"ink": "102A4C", "accent": "1465CB", "muted": "536A83", "pale": "EFF6FD", "line": "D6E3F0"},
+  "logo_visible_width_mm": 28,
+  "brochure": {"page_width_pt": 595.2756, "page_height_pt": 841.8898, "margin_pt": 36, "column_gap_pt": 14, "top_rule_pt": 7, "title_pt": 29, "section_pt": 18, "body_pt": 9.8, "minimum_body_pt": 9.2, "header_rule_y_pt": 83, "footer_rule_y_pt": 790},
+  "specification": {"page_width_twips": 11906, "page_height_twips": 16838, "margin_top_twips": 1956, "margin_bottom_twips": 1106, "margin_left_twips": 720, "margin_right_twips": 720, "header_twips": 595, "footer_twips": 465, "content_width_twips": 10466, "title_pt": 27, "heading_1_pt": 23, "heading_2_pt": 14, "body_pt": 10.5, "table_pt": 10, "table_line_pt": 14.5, "table_border_eighth_pt": 4, "parameter_column_twips": 2665}
+}

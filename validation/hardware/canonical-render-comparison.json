@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "method": "Documents standard render_docx.py, identical fonts/renderer and 120 DPI; separate render of final native DOCX.",
+  "pages": [
+    {
+      "language": "zh",
+      "page": "page-1.png",
+      "pixel_identical": true
+    },
+    {
+      "language": "zh",
+      "page": "page-2.png",
+      "pixel_identical": true
+    },
+    {
+      "language": "zh",
+      "page": "page-3.png",
+      "pixel_identical": true
+    },
+    {
+      "language": "zh",
+      "page": "page-4.png",
+      "pixel_identical": true
+    },
+    {
+      "language": "en",
+      "page": "page-1.png",
+      "pixel_identical": true
+    },
+    {
+      "language": "en",
+      "page": "page-2.png",
+      "pixel_identical": true
+    },
+    {
+      "language": "en",
+      "page": "page-3.png",
+      "pixel_identical": true
+    },
+    {
+      "language": "en",
+      "page": "page-4.png",
+      "pixel_identical": true
+    }
+  ]
+}

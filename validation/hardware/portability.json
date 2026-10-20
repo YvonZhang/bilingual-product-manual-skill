@@ -1,0 +1,123 @@
+{
+  "status": "passed",
+  "scope": "Same macOS host. Full copied skill in renamed path with spaces; unrelated working directory; fresh output; 12 page pixel comparisons. Not a second physical machine or operating system.",
+  "steps": [
+    {
+      "step": "hardware.py build",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "step": "hardware.py render",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "step": "hardware_check.py",
+      "returncode": 0,
+      "stderr": ""
+    }
+  ],
+  "pixel_comparisons": [
+    {
+      "page": "pages-brochure-en/page-1.png",
+      "pixel_identical": true
+    },
+    {
+      "page": "pages-brochure-en/page-2.png",
+      "pixel_identical": true
+    },
+    {
+      "page": "pages-brochure-zh/page-1.png",
+      "pixel_identical": true
+    },
+    {
+      "page": "pages-brochure-zh/page-2.png",
+      "pixel_identical": true
+    },
+    {
+      "page": "pages-specification-en/page-1.png",
+      "pixel_identical": true
+    },
+    {
+      "page": "pages-specification-en/page-2.png",
+      "pixel_identical": true
+    },
+    {
+      "page": "pages-specification-en/page-3.png",
+      "pixel_identical": true
+    },
+    {
+      "page": "pages-specification-en/page-4.png",
+      "pixel_identical": true
+    },
+    {
+      "page": "pages-specification-zh/page-1.png",
+      "pixel_identical": true
+    },
+    {
+      "page": "pages-specification-zh/page-2.png",
+      "pixel_identical": true
+    },
+    {
+      "page": "pages-specification-zh/page-3.png",
+      "pixel_identical": true
+    },
+    {
+      "page": "pages-specification-zh/page-4.png",
+      "pixel_identical": true
+    }
+  ],
+  "qa": {
+    "automated_checks": "passed",
+    "visual_review": "required-separately",
+    "documents": {
+      "hardware-brochure": {
+        "zh": {
+          "pages": 2,
+          "text_coverage": "passed",
+          "equal_parameter_table_bottoms": true,
+          "bottom_pt": 564.0
+        },
+        "en": {
+          "pages": 2,
+          "text_coverage": "passed",
+          "equal_parameter_table_bottoms": true,
+          "bottom_pt": 564.0
+        }
+      },
+      "hardware-specification": {
+        "zh": {
+          "pages": 4,
+          "text_coverage": "passed",
+          "native_tables": 4,
+          "repeating_headers": "passed",
+          "whole_records": "passed"
+        },
+        "en": {
+          "pages": 4,
+          "text_coverage": "passed",
+          "native_tables": 4,
+          "repeating_headers": "passed",
+          "whole_records": "passed"
+        }
+      }
+    },
+    "bilingual_facts": "validated-shared-facts-and-translations",
+    "logo_widths_pt": [
+      79.37008,
+      79.37008,
+      79.37008,
+      79.37008,
+      79.35,
+      79.35,
+      79.35,
+      79.35,
+      79.35,
+      79.35,
+      79.35,
+      79.35
+    ],
+    "gap_count": 1
+  }
+}

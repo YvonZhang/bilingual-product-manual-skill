@@ -1,0 +1,39 @@
+test_brochure_overflow_fails_instead_of_shrinking_or_omitting (test_hardware.HardwareBehaviorTests.test_brochure_overflow_fails_instead_of_shrinking_or_omitting) ... ok
+test_comparison_direction_rejected (test_hardware.HardwareBehaviorTests.test_comparison_direction_rejected) ... ok
+test_equal_values_cannot_hide_different_fact_sources (test_hardware.HardwareBehaviorTests.test_equal_values_cannot_hide_different_fact_sources) ... ok
+test_inconsistent_numeric_capacity_rejected (test_hardware.HardwareBehaviorTests.test_inconsistent_numeric_capacity_rejected) ... ok
+test_long_brochure_table_fails_instead_of_discarding_rows (test_hardware.HardwareBehaviorTests.test_long_brochure_table_fails_instead_of_discarding_rows) ... ok
+test_mass_units_rejected (test_hardware.HardwareBehaviorTests.test_mass_units_rejected) ... ok
+test_missing_optional_data_removes_images_performance_and_brand (test_hardware.HardwareBehaviorTests.test_missing_optional_data_removes_images_performance_and_brand) ... ok
+test_missing_translation_rejected (test_hardware.HardwareBehaviorTests.test_missing_translation_rejected) ... ok
+test_no_silent_fictional_label_removal (test_hardware.HardwareBehaviorTests.test_no_silent_fictional_label_removal) ... ok
+test_parent_asset_escape_rejected (test_hardware.HardwareBehaviorTests.test_parent_asset_escape_rejected) ... ok
+test_performance_without_test_conditions_rejected (test_hardware.HardwareBehaviorTests.test_performance_without_test_conditions_rejected) ... ok
+test_public_draft_marker_rejected (test_hardware.HardwareBehaviorTests.test_public_draft_marker_rejected) ... ok
+test_repeated_brochure_parameter_rejected (test_hardware.HardwareBehaviorTests.test_repeated_brochure_parameter_rejected) ... ok
+test_software_schema_does_not_enter_hardware_pipeline (test_hardware.HardwareBehaviorTests.test_software_schema_does_not_enter_hardware_pipeline) ... ok
+test_unprovided_evidence_rejected (test_hardware.HardwareBehaviorTests.test_unprovided_evidence_rejected) ... ok
+test_unverified_photo_rejected (test_hardware.HardwareBehaviorTests.test_unverified_photo_rejected) ... ok
+test_wrong_interface_photo_rejected (test_hardware.HardwareBehaviorTests.test_wrong_interface_photo_rejected) ... ok
+test_wrong_model_photo_rejected (test_hardware.HardwareBehaviorTests.test_wrong_model_photo_rejected) ... ok
+test_asset_parent_escape_is_rejected (test_manual.ManualBehaviorTests.test_asset_parent_escape_is_rejected) ... ok
+test_different_numeric_capacity_is_rejected (test_manual.ManualBehaviorTests.test_different_numeric_capacity_is_rejected) ... ok
+test_different_units_are_rejected (test_manual.ManualBehaviorTests.test_different_units_are_rejected) ... ok
+test_fictional_source_cannot_lose_visible_label (test_manual.ManualBehaviorTests.test_fictional_source_cannot_lose_visible_label) ... ok
+test_fresh_relocated_skill_works_outside_its_cwd (test_manual.ManualBehaviorTests.test_fresh_relocated_skill_works_outside_its_cwd) ... ok
+test_heading_gap_is_rejected (test_manual.ManualBehaviorTests.test_heading_gap_is_rejected) ... ok
+test_incomplete_table_record_is_rejected (test_manual.ManualBehaviorTests.test_incomplete_table_record_is_rejected) ... ok
+test_missing_english_cannot_silently_emit_chinese_twice (test_manual.ManualBehaviorTests.test_missing_english_cannot_silently_emit_chinese_twice) ... ok
+test_missing_figure_is_rejected (test_manual.ManualBehaviorTests.test_missing_figure_is_rejected) ... ok
+test_negative_sign_is_not_lost_in_translation (test_manual.ManualBehaviorTests.test_negative_sign_is_not_lost_in_translation) ... ok
+test_optional_brand_images_and_gaps_do_not_become_public_placeholders (test_manual.ManualBehaviorTests.test_optional_brand_images_and_gaps_do_not_become_public_placeholders) ... ok
+test_tall_record_cannot_be_clipped_by_row_keep_rule (test_manual.ManualBehaviorTests.test_tall_record_cannot_be_clipped_by_row_keep_rule) ... ok
+test_unknown_source_is_rejected (test_manual.ManualBehaviorTests.test_unknown_source_is_rejected) ... ok
+test_unresolved_fact_is_rejected (test_manual.ManualBehaviorTests.test_unresolved_fact_is_rejected) ... ok
+test_unsupported_specification_mode_is_rejected (test_manual.ManualBehaviorTests.test_unsupported_specification_mode_is_rejected) ... ok
+test_visible_draft_markers_are_rejected (test_manual.ManualBehaviorTests.test_visible_draft_markers_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 1.144s
+
+OK

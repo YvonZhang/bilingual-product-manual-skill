@@ -1,12 +1,13 @@
 {
   "status": "passed",
-  "files_checked": 39,
+  "files_checked": 93,
   "checks": [
     "known original brand/contact/product terms",
     "local absolute home paths",
     "credential/private-key patterns",
     "original media hashes",
-    "original text paragraphs of 35+ characters",
+    "original DOCX paragraphs of 35+ and PDF text lines of 45+ meaningful characters excluding TOC dot leaders",
+    "no bundled font files",
     "DOCX personal author metadata"
   ],
   "matches": [],

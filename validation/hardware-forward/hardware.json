@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "templates": [
+    "hardware-brochure",
+    "hardware-specification"
+  ],
+  "fictional": true,
+  "meta": {
+    "product": {
+      "zh": "栖木标签核对器",
+      "en": "Perch Label Checker"
+    },
+    "model": "PLC-03",
+    "version": "0.3.0",
+    "subtitle": {
+      "zh": "仅供培训模拟",
+      "en": "For training simulation only"
+    },
+    "overview": {
+      "zh": "栖木标签核对器仅供培训模拟，用于课堂讲解和标签排版演练，只演示标签顺序核对与状态清除。",
+      "en": "Perch Label Checker is for training simulation only. It is used for classroom explanations and label layout practice, and demonstrates label sequence checking and status clearing only."
+    },
+    "sources": [
+      "identity",
+      "scope"
+    ]
+  },
+  "sources": [
+    {
+      "id": "identity",
+      "description": "source.md：虚构产品名、型号 PLC-03、资料版本 0.3.0、培训模拟限定。",
+      "fictional": true
+    },
+    {
+      "id": "simulation",
+      "description": "source.md：3 处标签检查位、单次模拟批量 24 张、内存 64 MB、状态保持 120 s。",
+      "fictional": true
+    },
+    {
+      "id": "power",
+      "description": "source.md：供电 9 V DC / 1 A，示例功耗 4 W。",
+      "fictional": true
+    },
+    {
+      "id": "physical",
+      "description": "source.md：外形 110 × 70 × 25 mm、重量 0.22 kg、工作温度 10 °C 至 35 °C。",
+      "fictional": true
+    },
+    {
+      "id": "scope",
+      "description": "source.md：课堂讲解、标签排版演练；仅演示标签顺序核对与状态清除，不扩展为扫描识别、联网或认证声明。",
+      "fictional": true
+    }
+  ],
+  "facts": {
+    "positions": {
+      "value": "3",
+      "sources": [
+        "simulation"
+      ]
+    },
+    "batch": {
+      "value": "24",
+      "sources": [
+        "simulation"
+      ]
+    },
+    "memory": {
+      "value": "64",
+      "unit": "MB",
+      "sources": [
+        "simulation"
+      ]
+    },
+    "state_retention": {
+      "value": "120",
+      "unit": "s",
+      "sources": [
+        "simulation"
+      ]
+    },
+    "voltage": {
+      "value": "9",
+      "unit": "V DC",
+      "sources": [
+        "power"
+      ]
+    },
+    "current": {
+      "value": "1",
+      "unit": "A",
+      "sources": [
+        "power"
+      ]
+    },
+    "power": {
+      "value": "4",
+      "unit": "W",
+      "sources": [
+        "power"
+      ]
+    },
+    "dimensions": {
+      "value": "110 × 70 × 25",
+      "unit": "mm",
+      "sources": [
+        "physical"
+      ]
+    },
+    "mass": {
+      "value": "0.22",
+      "unit": "kg",
+      "sources": [
+        "physical"
+      ]
+    },
+    "temperature_min": {
+      "value": "10",
+      "unit": "°C",
+      "sources": [
+        "physical"
+      ]
+    },
+    "temperature_max": {
+      "value": "35",
+      "unit": "°C",
+      "sources": [
+        "physical"
+      ]
+    }
+  },
+  "metrics": [
+    {
+      "id": "positions",
+      "label": {
+        "zh": "标签检查位",
+        "en": "Label-check positions"
+      },
+      "fact": "positions",
+      "unit_label": {
+        "zh": "处",
+        "en": "positions"
+      }
+    },
+    {
+      "id": "batch",
+      "label": {
+        "zh": "单次模拟批量",
+        "en": "Single simulated batch"
+      },
+      "fact": "batch",
+      "unit_label": {
+        "zh": "张",
+        "en": "labels"
+      }
+    },
+    {
+      "id": "retention",
+      "label": {
+        "zh": "状态保持",
+        "en": "State retention"
+      },
+      "fact": "state_retention"
+    }
+  ],
+  "spec_groups": [
+    {
+      "id": "simulation",
+      "title": {
+        "zh": "模拟配置",
+        "en": "Simulation configuration"
+      },
+      "rows": [
+        {
+          "id": "positions",
+          "label": {
+            "zh": "标签检查位",
+            "en": "Label-check positions"
+          },
+          "value": {
+            "zh": "{{fact:positions}} 处",
+            "en": "{{fact:positions}} positions"
+          },
+          "sources": [
+            "simulation"
+          ]
+        },
+        {
+          "id": "batch",
+          "label": {
+            "zh": "单次模拟批量",
+            "en": "Single simulated batch"
+          },
+          "value": {
+            "zh": "{{fact:batch}} 张",
+            "en": "{{fact:batch}} labels"
+          },
+          "sources": [
+            "simulation"
+          ]
+        },
+        {
+          "id": "memory",
+          "label": {
+            "zh": "内存",
+            "en": "Memory"
+          },
+          "value": {
+            "zh": "{{fact:memory}}",
+            "en": "{{fact:memory}}"
+          },
+          "sources": [
+            "simulation"
+          ]
+        },
+        {
+          "id": "state-retention",
+          "label": {
+            "zh": "状态保持",
+            "en": "State retention"
+          },
+          "value": {
+            "zh": "{{fact:state_retention}}",
+            "en": "{{fact:state_retention}}"
+          },
+          "sources": [
+            "simulation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "title": {
+        "zh": "供电与功耗",
+        "en": "Power supply and consumption"
+      },
+      "rows": [
+        {
+          "id": "power-input",
+          "label": {
+            "zh": "供电",
+            "en": "Power supply"
+          },
+          "value": {
+            "zh": "{{fact:voltage}} / {{fact:current}}",
+            "en": "{{fact:voltage}} / {{fact:current}}"
+          },
+          "sources": [
+            "power"
+          ]
+        },
+        {
+          "id": "power-consumption",
+          "label": {
+            "zh": "示例功耗",
+            "en": "Example power consumption"
+          },
+          "value": {
+            "zh": "{{fact:power}}",
+            "en": "{{fact:power}}"
+          },
+          "sources": [
+            "power"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical",
+      "title": {
+        "zh": "外形与工作环境",
+        "en": "Dimensions and operating environment"
+      },
+      "rows": [
+        {
+          "id": "dimensions",
+          "label": {
+            "zh": "外形",
+            "en": "Dimensions"
+          },
+          "value": {
+            "zh": "{{fact:dimensions}}",
+            "en": "{{fact:dimensions}}"
+          },
+          "sources": [
+            "physical"
+          ]
+        },
+        {
+          "id": "mass",
+          "label": {
+            "zh": "重量",
+            "en": "Weight"
+          },
+          "value": {
+            "zh": "{{fact:mass}}",
+            "en": "{{fact:mass}}"
+          },
+          "sources": [
+            "physical"
+          ]
+        },
+        {
+          "id": "temperature",
+          "label": {
+            "zh": "工作温度",
+            "en": "Operating temperature"
+          },
+          "value": {
+            "zh": "{{fact:temperature_min}} 至 {{fact:temperature_max}}",
+            "en": "{{fact:temperature_min}} to {{fact:temperature_max}}"
+          },
+          "sources": [
+            "physical"
+          ]
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "id": "sequence-check",
+      "title": {
+        "zh": "标签顺序核对",
+        "en": "Label sequence checking"
+      },
+      "text": {
+        "zh": "演示标签顺序核对。",
+        "en": "Demonstrates label sequence checking."
+      },
+      "sources": [
+        "scope"
+      ]
+    },
+    {
+      "id": "status-clear",
+      "title": {
+        "zh": "状态清除",
+        "en": "Status clearing"
+      },
+      "text": {
+        "zh": "演示状态清除。",
+        "en": "Demonstrates status clearing."
+      },
+      "sources": [
+        "scope"
+      ]
+    }
+  ],
+  "applications": [
+    {
+      "id": "classroom",
+      "title": {
+        "zh": "课堂讲解",
+        "en": "Classroom explanations"
+      },
+      "text": {
+        "zh": "用于课堂讲解，仅供培训模拟。",
+        "en": "For classroom explanations in training simulations."
+      },
+      "sources": [
+        "scope"
+      ]
+    },
+    {
+      "id": "layout-practice",
+      "title": {
+        "zh": "标签排版演练",
+        "en": "Label layout practice"
+      },
+      "text": {
+        "zh": "用于标签排版演练，仅供培训模拟。",
+        "en": "For label layout practice in training simulations."
+      },
+      "sources": [
+        "scope"
+      ]
+    }
+  ],
+  "brochure": {
+    "hero": {
+      "eyebrow": {
+        "zh": "培训模拟",
+        "en": "TRAINING SIMULATION"
+      },
+      "title": {
+        "zh": "标签顺序核对演示",
+        "en": "Label sequence demonstration"
+      },
+      "text": {
+        "zh": "用于课堂讲解与标签排版演练，只演示标签顺序核对与状态清除。",
+        "en": "For classroom explanations and label layout practice. Demonstrates label sequence checking and status clearing only."
+      },
+      "sources": [
+        "scope"
+      ]
+    },
+    "design": {
+      "title": {
+        "zh": "模拟配置与外形",
+        "en": "Simulation setup and enclosure"
+      },
+      "text": {
+        "zh": "设有 {{fact:positions}} 处标签检查位，单次模拟批量为 {{fact:batch}} 张。仅供培训模拟。",
+        "en": "Provides {{fact:positions}} label-check positions and a simulated batch of {{fact:batch}} labels. For training simulation only."
+      },
+      "sources": [
+        "simulation",
+        "identity"
+      ]
+    },
+    "parameter_columns": [
+      [
+        "positions",
+        "batch",
+        "memory",
+        "state-retention"
+      ],
+      [
+        "power-input",
+        "power-consumption",
+        "dimensions",
+        "mass",
+        "temperature"
+      ]
+    ],
+    "feature_ids": [
+      "sequence-check",
+      "status-clear"
+    ],
+    "application_ids": [
+      "classroom",
+      "layout-practice"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "images",
+      "reason": "原始资料明确没有产品图片；省略图片，不生成假产品或占位图。",
+      "action": "omit"
+    },
+    {
+      "field": "brand.logo",
+      "reason": "原始资料明确没有 Logo。",
+      "action": "omit"
+    },
+    {
+      "field": "brand.contact",
+      "reason": "原始资料明确没有联系人及联系信息。",
+      "action": "omit"
+    },
+    {
+      "field": "performance",
+      "reason": "没有性能测试与测试条件资料。",
+      "action": "omit"
+    },
+    {
+      "field": "accuracy",
+      "reason": "没有准确率资料。",
+      "action": "omit"
+    },
+    {
+      "field": "certifications",
+      "reason": "不能声称认证；不生成认证声明。",
+      "action": "omit"
+    },
+    {
+      "field": "scanning_and_networking",
+      "reason": "资料仅支持标签顺序核对及状态清除演示；不能扩展成扫描识别或联网能力。",
+      "action": "internal"
+    }
+  ]
+}

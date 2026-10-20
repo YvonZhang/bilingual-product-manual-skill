@@ -1,0 +1,23 @@
+{
+  "first_run": {
+    "validate": 0,
+    "build": 0,
+    "render": 0,
+    "check": 0,
+    "independent_review": "failed: required document revision absent from all four PDFs"
+  },
+  "final_run": {
+    "validate": 0,
+    "build": 0,
+    "render": 0,
+    "check": 0,
+    "independent_review": "passed: every page contains the revision, all 10 pages visually checked"
+  },
+  "rejections": {
+    "unit_mismatch": 2,
+    "missing_english": 2
+  },
+  "input_unchanged": true,
+  "input_sha256": "db83af46e6213369335d107022b11a7c1d2a05ff254e1d65f8e90dc776dca176",
+  "remaining_blockers": []
+}

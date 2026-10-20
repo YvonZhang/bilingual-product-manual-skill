@@ -1,0 +1,1161 @@
+{
+  "schema_version": 1,
+  "templates": [
+    "hardware-brochure",
+    "hardware-specification"
+  ],
+  "fictional": true,
+  "meta": {
+    "product": {
+      "zh": "纸舟课堂信号采集、状态核对与离线文件导出综合培训设备",
+      "en": "Paperboat Classroom Signal Collection, Status Review and Offline File Export Training Device"
+    },
+    "model": "PSH-06",
+    "version": "0.6.0",
+    "overview": {
+      "zh": "本虚构培训设备用于演示信号记录、状态查看和文件导出。产品与参数均为虚构，本次没有提供图片或性能测试资料。",
+      "en": "This fictional training device demonstrates signal recording, status review and file export. The product and specifications are fictional. No images or performance test evidence were supplied."
+    },
+    "ordering": {
+      "zh": "PSH-06：示例配置为 {{fact:channels}} 个记录通道、{{fact:storage}} 存储；没有选配项。",
+      "en": "PSH-06: the example configuration has {{fact:channels}} recording channels and {{fact:storage}} storage; no options are specified."
+    },
+    "sources": [
+      "fictional-brief"
+    ],
+    "short_title": {
+      "zh": "纸舟培训设备",
+      "en": "Paperboat Training Device"
+    }
+  },
+  "sources": [
+    {
+      "id": "fictional-brief",
+      "description": "Completely fictional hardware brief and synthetic diagrams created only to test this template. No real capability or certification is asserted.",
+      "fictional": true
+    }
+  ],
+  "facts": {
+    "channels": {
+      "value": "6",
+      "unit": "",
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "storage": {
+      "value": "32",
+      "unit": "GB",
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "interval": {
+      "value": "30",
+      "unit": "s",
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "power_v": {
+      "value": "5",
+      "unit": "V",
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "power_a": {
+      "value": "2",
+      "unit": "A",
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "power_w": {
+      "value": "7",
+      "unit": "W",
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "ethernet": {
+      "value": "1",
+      "unit": "",
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "usb": {
+      "value": "2",
+      "unit": "",
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "width": {
+      "value": "164",
+      "unit": "mm",
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "depth": {
+      "value": "92",
+      "unit": "mm",
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "height": {
+      "value": "34",
+      "unit": "mm",
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "weight": {
+      "value": "0.48",
+      "unit": "kg",
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "temp_low": {
+      "value": "0",
+      "unit": "°C",
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "temp_high": {
+      "value": "45",
+      "unit": "°C",
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "retention": {
+      "value": "4096",
+      "unit": "",
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "delay": {
+      "value": "1.5",
+      "unit": "s",
+      "sources": [
+        "fictional-brief"
+      ]
+    }
+  },
+  "metrics": [
+    {
+      "id": "channels",
+      "label": {
+        "zh": "示例记录通道数",
+        "en": "Example recording channels"
+      },
+      "fact": "channels",
+      "unit_label": {
+        "zh": "通道",
+        "en": "channels"
+      }
+    },
+    {
+      "id": "storage",
+      "label": {
+        "zh": "示例内置存储",
+        "en": "Example internal storage"
+      },
+      "fact": "storage"
+    },
+    {
+      "id": "interval",
+      "label": {
+        "zh": "示例记录间隔",
+        "en": "Example recording interval"
+      },
+      "fact": "interval"
+    }
+  ],
+  "spec_groups": [
+    {
+      "id": "technical",
+      "title": {
+        "zh": "技术参数",
+        "en": "Technical specifications"
+      },
+      "rows": [
+        {
+          "id": "channels",
+          "label": {
+            "zh": "记录通道",
+            "en": "Recording channels"
+          },
+          "value": {
+            "zh": "{{fact:channels}} 个通道",
+            "en": "{{fact:channels}} channels"
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "storage",
+          "label": {
+            "zh": "内置存储",
+            "en": "Internal storage"
+          },
+          "value": {
+            "zh": "{{fact:storage}}；无选配项",
+            "en": "{{fact:storage}}; no options specified"
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "interval",
+          "label": {
+            "zh": "记录间隔",
+            "en": "Recording interval"
+          },
+          "value": {
+            "zh": "每 {{fact:interval}} 记录",
+            "en": "Records every {{fact:interval}}"
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "ethernet",
+          "label": {
+            "zh": "网络接口",
+            "en": "Network interface"
+          },
+          "value": {
+            "zh": "{{fact:ethernet}} 个 RJ45",
+            "en": "{{fact:ethernet}} RJ45 port"
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "usb",
+          "label": {
+            "zh": "USB 接口",
+            "en": "USB interfaces"
+          },
+          "value": {
+            "zh": "{{fact:usb}} 个 USB-C",
+            "en": "{{fact:usb}} USB-C ports"
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "retention",
+          "label": {
+            "zh": "记录容量",
+            "en": "Record capacity"
+          },
+          "value": {
+            "zh": "最多 {{fact:retention}} 条示例记录",
+            "en": "At most {{fact:retention}} example records"
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "power",
+          "label": {
+            "zh": "电源输入",
+            "en": "Power input"
+          },
+          "value": {
+            "zh": "{{fact:power_v}} DC / {{fact:power_a}}",
+            "en": "{{fact:power_v}} DC / {{fact:power_a}}"
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "consumption",
+          "label": {
+            "zh": "示例功耗",
+            "en": "Example consumption"
+          },
+          "value": {
+            "zh": "{{fact:power_w}}",
+            "en": "{{fact:power_w}}"
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "temperature",
+          "label": {
+            "zh": "使用温度",
+            "en": "Operating temperature"
+          },
+          "value": {
+            "zh": "{{fact:temp_low}} 至 {{fact:temp_high}}",
+            "en": "{{fact:temp_low}} to {{fact:temp_high}}"
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "dimensions",
+          "label": {
+            "zh": "尺寸",
+            "en": "Dimensions"
+          },
+          "value": {
+            "zh": "{{fact:width}} × {{fact:depth}} × {{fact:height}}",
+            "en": "{{fact:width}} × {{fact:depth}} × {{fact:height}}"
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "weight",
+          "label": {
+            "zh": "重量",
+            "en": "Weight"
+          },
+          "value": {
+            "zh": "{{fact:weight}}",
+            "en": "{{fact:weight}}"
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-12",
+          "label": {
+            "zh": "培训记录 12",
+            "en": "Training record 12"
+          },
+          "value": {
+            "zh": "记录 12：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 12: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-13",
+          "label": {
+            "zh": "培训记录 13",
+            "en": "Training record 13"
+          },
+          "value": {
+            "zh": "记录 13：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 13: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-14",
+          "label": {
+            "zh": "培训记录 14",
+            "en": "Training record 14"
+          },
+          "value": {
+            "zh": "记录 14：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 14: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-15",
+          "label": {
+            "zh": "培训记录 15",
+            "en": "Training record 15"
+          },
+          "value": {
+            "zh": "记录 15：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 15: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-16",
+          "label": {
+            "zh": "培训记录 16",
+            "en": "Training record 16"
+          },
+          "value": {
+            "zh": "记录 16：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 16: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-17",
+          "label": {
+            "zh": "培训记录 17",
+            "en": "Training record 17"
+          },
+          "value": {
+            "zh": "记录 17：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 17: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-18",
+          "label": {
+            "zh": "培训记录 18",
+            "en": "Training record 18"
+          },
+          "value": {
+            "zh": "记录 18：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 18: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-19",
+          "label": {
+            "zh": "培训记录 19",
+            "en": "Training record 19"
+          },
+          "value": {
+            "zh": "记录 19：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 19: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-20",
+          "label": {
+            "zh": "培训记录 20",
+            "en": "Training record 20"
+          },
+          "value": {
+            "zh": "记录 20：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 20: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-21",
+          "label": {
+            "zh": "培训记录 21",
+            "en": "Training record 21"
+          },
+          "value": {
+            "zh": "记录 21：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 21: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-22",
+          "label": {
+            "zh": "培训记录 22",
+            "en": "Training record 22"
+          },
+          "value": {
+            "zh": "记录 22：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 22: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-23",
+          "label": {
+            "zh": "培训记录 23",
+            "en": "Training record 23"
+          },
+          "value": {
+            "zh": "记录 23：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 23: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-24",
+          "label": {
+            "zh": "培训记录 24",
+            "en": "Training record 24"
+          },
+          "value": {
+            "zh": "记录 24：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 24: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-25",
+          "label": {
+            "zh": "培训记录 25",
+            "en": "Training record 25"
+          },
+          "value": {
+            "zh": "记录 25：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 25: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-26",
+          "label": {
+            "zh": "培训记录 26",
+            "en": "Training record 26"
+          },
+          "value": {
+            "zh": "记录 26：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 26: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-27",
+          "label": {
+            "zh": "培训记录 27",
+            "en": "Training record 27"
+          },
+          "value": {
+            "zh": "记录 27：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 27: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-28",
+          "label": {
+            "zh": "培训记录 28",
+            "en": "Training record 28"
+          },
+          "value": {
+            "zh": "记录 28：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 28: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-29",
+          "label": {
+            "zh": "培训记录 29",
+            "en": "Training record 29"
+          },
+          "value": {
+            "zh": "记录 29：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 29: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-30",
+          "label": {
+            "zh": "培训记录 30",
+            "en": "Training record 30"
+          },
+          "value": {
+            "zh": "记录 30：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 30: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-31",
+          "label": {
+            "zh": "培训记录 31",
+            "en": "Training record 31"
+          },
+          "value": {
+            "zh": "记录 31：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 31: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-32",
+          "label": {
+            "zh": "培训记录 32",
+            "en": "Training record 32"
+          },
+          "value": {
+            "zh": "记录 32：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 32: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-33",
+          "label": {
+            "zh": "培训记录 33",
+            "en": "Training record 33"
+          },
+          "value": {
+            "zh": "记录 33：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 33: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-34",
+          "label": {
+            "zh": "培训记录 34",
+            "en": "Training record 34"
+          },
+          "value": {
+            "zh": "记录 34：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 34: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-35",
+          "label": {
+            "zh": "培训记录 35",
+            "en": "Training record 35"
+          },
+          "value": {
+            "zh": "记录 35：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 35: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-36",
+          "label": {
+            "zh": "培训记录 36",
+            "en": "Training record 36"
+          },
+          "value": {
+            "zh": "记录 36：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 36: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-37",
+          "label": {
+            "zh": "培训记录 37",
+            "en": "Training record 37"
+          },
+          "value": {
+            "zh": "记录 37：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 37: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-38",
+          "label": {
+            "zh": "培训记录 38",
+            "en": "Training record 38"
+          },
+          "value": {
+            "zh": "记录 38：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 38: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-39",
+          "label": {
+            "zh": "培训记录 39",
+            "en": "Training record 39"
+          },
+          "value": {
+            "zh": "记录 39：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 39: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-40",
+          "label": {
+            "zh": "培训记录 40",
+            "en": "Training record 40"
+          },
+          "value": {
+            "zh": "记录 40：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 40: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-41",
+          "label": {
+            "zh": "培训记录 41",
+            "en": "Training record 41"
+          },
+          "value": {
+            "zh": "记录 41：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 41: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-42",
+          "label": {
+            "zh": "培训记录 42",
+            "en": "Training record 42"
+          },
+          "value": {
+            "zh": "记录 42：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 42: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-43",
+          "label": {
+            "zh": "培训记录 43",
+            "en": "Training record 43"
+          },
+          "value": {
+            "zh": "记录 43：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 43: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-44",
+          "label": {
+            "zh": "培训记录 44",
+            "en": "Training record 44"
+          },
+          "value": {
+            "zh": "记录 44：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 44: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-45",
+          "label": {
+            "zh": "培训记录 45",
+            "en": "Training record 45"
+          },
+          "value": {
+            "zh": "记录 45：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 45: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-46",
+          "label": {
+            "zh": "培训记录 46",
+            "en": "Training record 46"
+          },
+          "value": {
+            "zh": "记录 46：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 46: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-47",
+          "label": {
+            "zh": "培训记录 47",
+            "en": "Training record 47"
+          },
+          "value": {
+            "zh": "记录 47：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 47: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-48",
+          "label": {
+            "zh": "培训记录 48",
+            "en": "Training record 48"
+          },
+          "value": {
+            "zh": "记录 48：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 48: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-49",
+          "label": {
+            "zh": "培训记录 49",
+            "en": "Training record 49"
+          },
+          "value": {
+            "zh": "记录 49：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 49: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-50",
+          "label": {
+            "zh": "培训记录 50",
+            "en": "Training record 50"
+          },
+          "value": {
+            "zh": "记录 50：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 50: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-51",
+          "label": {
+            "zh": "培训记录 51",
+            "en": "Training record 51"
+          },
+          "value": {
+            "zh": "记录 51：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 51: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-52",
+          "label": {
+            "zh": "培训记录 52",
+            "en": "Training record 52"
+          },
+          "value": {
+            "zh": "记录 52：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 52: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-53",
+          "label": {
+            "zh": "培训记录 53",
+            "en": "Training record 53"
+          },
+          "value": {
+            "zh": "记录 53：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 53: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        },
+        {
+          "id": "training-record-54",
+          "label": {
+            "zh": "培训记录 54",
+            "en": "Training record 54"
+          },
+          "value": {
+            "zh": "记录 54：此项为虚构的表格换行与跨页测试说明，不代表实际硬件性能。",
+            "en": "Record 54: this fictional explanatory entry checks wrapping and pagination across a long specification table. It makes no hardware performance claim."
+          },
+          "sources": [
+            "fictional-brief"
+          ]
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "id": "record",
+      "title": {
+        "zh": "记录演示",
+        "en": "Recording demo"
+      },
+      "text": {
+        "zh": "按固定间隔保存示例信号。",
+        "en": "Saves example signals at a fixed interval."
+      },
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    {
+      "id": "review",
+      "title": {
+        "zh": "状态查看",
+        "en": "Status review"
+      },
+      "text": {
+        "zh": "查看最近记录及剩余容量。",
+        "en": "Shows recent records and remaining capacity."
+      },
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    {
+      "id": "export",
+      "title": {
+        "zh": "文件导出",
+        "en": "File export"
+      },
+      "text": {
+        "zh": "导出当前选定的记录。",
+        "en": "Exports the currently selected records."
+      },
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    {
+      "id": "local",
+      "title": {
+        "zh": "本地操作",
+        "en": "Local operation"
+      },
+      "text": {
+        "zh": "在培训环境中离线操作。",
+        "en": "Runs offline in a training environment."
+      },
+      "sources": [
+        "fictional-brief"
+      ]
+    }
+  ],
+  "applications": [
+    {
+      "id": "classroom",
+      "title": {
+        "zh": "课堂培训",
+        "en": "Classroom training"
+      },
+      "text": {
+        "zh": "演示数据记录的基本流程。",
+        "en": "Demonstrates the basic recording workflow."
+      },
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    {
+      "id": "workshop",
+      "title": {
+        "zh": "设备工作坊",
+        "en": "Device workshop"
+      },
+      "text": {
+        "zh": "讲解接口与存储的关系。",
+        "en": "Explains interfaces and storage."
+      },
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    {
+      "id": "demo",
+      "title": {
+        "zh": "产品演示",
+        "en": "Product demonstration"
+      },
+      "text": {
+        "zh": "展示虚构设备的操作流程。",
+        "en": "Shows the fictional device workflow."
+      },
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    {
+      "id": "layout",
+      "title": {
+        "zh": "版式测试",
+        "en": "Layout testing"
+      },
+      "text": {
+        "zh": "验证双语资料的布局。",
+        "en": "Checks bilingual document layouts."
+      },
+      "sources": [
+        "fictional-brief"
+      ]
+    }
+  ],
+  "brochure": {
+    "hero": {
+      "eyebrow": {
+        "zh": "虚构硬件示例",
+        "en": "FICTIONAL HARDWARE"
+      },
+      "title": {
+        "zh": "记录信号\n理解数据",
+        "en": "Record signals\nUnderstand data"
+      },
+      "text": {
+        "zh": "为培训演示组织信号、记录与导出流程。",
+        "en": "Organize signals, records, and export workflows for training."
+      },
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "design": {
+      "title": {
+        "zh": "桌面式设计\n便于教学展示",
+        "en": "Desktop format\nfor demonstrations"
+      },
+      "text": {
+        "zh": "参数按本次虚构资料整理。采用 {{fact:power_v}} DC 供电。",
+        "en": "The specifications follow this fictional input. Powered by {{fact:power_v}} DC."
+      },
+      "sources": [
+        "fictional-brief"
+      ]
+    },
+    "parameter_columns": [
+      [
+        "channels",
+        "storage",
+        "interval",
+        "ethernet",
+        "usb",
+        "retention"
+      ],
+      [
+        "power",
+        "consumption",
+        "temperature",
+        "dimensions",
+        "weight"
+      ]
+    ],
+    "feature_ids": [
+      "record",
+      "review",
+      "export",
+      "local"
+    ],
+    "application_ids": [
+      "classroom",
+      "workshop",
+      "demo",
+      "layout"
+    ],
+    "closing": {
+      "title": {
+        "zh": "虚构资料说明",
+        "en": "Fictional example"
+      },
+      "text": {
+        "zh": "所有产品事实均为模板测试数据。",
+        "en": "All product facts are synthetic template test data."
+      },
+      "sources": [
+        "fictional-brief"
+      ]
+    }
+  },
+  "gaps": [
+    {
+      "field": "certifications",
+      "reason": "No certification evidence was supplied; no certification is claimed.",
+      "action": "omit"
+    },
+    {
+      "field": "brand",
+      "reason": "Not supplied in this fictional boundary input",
+      "action": "omit"
+    },
+    {
+      "field": "images",
+      "reason": "Not supplied in this fictional boundary input",
+      "action": "omit"
+    },
+    {
+      "field": "performance",
+      "reason": "Not supplied in this fictional boundary input",
+      "action": "omit"
+    }
+  ]
+}

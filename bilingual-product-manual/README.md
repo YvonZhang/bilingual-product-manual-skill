@@ -1,53 +1,59 @@
-# 中英文软件操作手册技能
+# 中英文产品手册技能 · v2.0.0
 
-将现有产品资料整理成固定版式的中英文 DOCX/PDF。模板保留 Letter 纸张、黑白标题、双层目录、灰色图注、运行页眉和连续页码。包内没有真实公司 Logo、联系方式、产品截图或业务正文。
+重点复用硬件中英文彩页与规格书的 A4 蓝白样式，同时保留独立的 Letter 黑白软件操作手册。硬件彩页输出原生文字/矢量 PDF；规格书和操作手册同时输出可编辑 DOCX 与 PDF。包内没有真实公司 Logo、联系方式、产品截图或业务正文。
 
-这是可分享的普通 Codex skill，未注册为 Template Gallery 的 artifact-template，也不包含硬件彩页或规格书模板。
+## 安装与调用
 
-## 安装
+将完整 `bilingual-product-manual` 目录复制到 Codex 的个人 skills 目录（通常为 `~/.codex/skills/`，或自定义 `CODEX_HOME` 下的 `skills/`）。不要只复制 `SKILL.md`；已有同名技能时先备份。新会话输入：
 
-把整个 `bilingual-product-manual` 文件夹复制到 Codex 的个人技能目录（通常为 `~/.codex/skills/`，或自定义 `CODEX_HOME` 下的 `skills/`）。不要只复制 `SKILL.md`。已存在同名技能时先备份或选择独立安装位置，不直接覆盖。
+> 使用 $bilingual-product-manual，根据我提供的硬件资料生成中英文硬件彩页和产品规格书。保持模板版式，核对图片接口与参数。缺资料只记录在内部清单，不编造能力或认证。
 
-在新会话输入：
+软件调用可明确写“生成中英文软件操作手册”。两类输入、版式及脚本独立；无需先生成其他文档。
 
-> 使用 $bilingual-product-manual，根据我提供的产品说明、功能流程和截图生成中英文用户操作手册。产品版本为本次资料标明的版本，缺资料处记录在内部清单，不编造。
+## 依赖与字体
 
-脚本也可脱离 Codex 单独使用。示例命令中的 `python` 指目标环境中的 Python 3.10 或更高版本。在 Codex 里优先使用工作区依赖加载工具给出的 Python；不要在托管依赖目录安装或写文件。
+- Python 3.10+。已验收 Python 包版本见 `requirements.txt`。
+- 官方 LibreOffice 的 `soffice`、Poppler 的 `pdftoppm`，字体发现用 Fontconfig 的 `fc-match`。Codex 中优先使用工作区已加载运行时；脚本也查找 PATH，或接受明确的可执行文件路径。
+- 硬件字体：Source Han Sans CN Regular/Bold（思源黑体 CN）。软件还使用 Arial、Courier New。字体不随包分发，请使用自己合法安装的字体；替代字体可能改变排版。
+- 硬件可通过 `--font-regular` / `--font-bold` 指向安装的字体文件；渲染命令可多次指定 `--font-dir`。字体缺字会阻止构建，不能用替换方块冒充成功。
+- 硬件 PDF 使用临时字形子集。CFF OTF 如需转换为 TrueType 轮廓，仅在临时目录处理当前文档所用字形，不向 skill 包写入字体。输入提供者应使用允许文档嵌入的字体。
 
-## 依赖
-
-- Python：`python-docx`、`lxml`、`Pillow`、`pypdf`，已验收版本见 `requirements.txt`。
-- PDF：官方 LibreOffice 的 `soffice` 与 Poppler 的 `pdftoppm`。Codex 环境自动优先查找同一运行时中的程序；其他环境使用 PATH，或传入 `--soffice`、`--pdftoppm` 的实际路径。
-- 字体：Arial、Source Han Sans CN（思源黑体 CN）、Courier New。字体不随包分发。请使用自己的合法字体或在 `theme.fonts` 中选择已安装替代字体；替代字体可能改变分页。
-- 如有 `fc-match`，脚本会发现字体目录并检查字体名称。没有该命令时使用多次 `--font-dir`，分别传入实际拉丁文和中文字体目录。字体配置只写入临时目录，不修改系统配置。
-
-需要手动安装 Python 依赖时，在自己管理的虚拟环境使用可信包索引：
+自行管理的虚拟环境可安装可信来源依赖：
 
 ```bash
 python -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 ```
 
-Windows 的虚拟环境解释器通常为 `.venv\Scripts\python.exe`。本包未实际在 Windows 或 Linux 完成渲染验收；跨平台支持需要在目标机器验证。
+Windows 通常使用 `.venv\Scripts\python.exe`。不要向 Codex 托管依赖目录写文件。本次实际测试在 macOS ARM64，完成路径搬迁和含空格目录测试；未在第二台电脑、Windows 或 Linux 实测，目标机器应重新生成和验收。
 
-## 从零试用
+## 从零试用硬件模板
 
-在技能文件夹内运行，输出目录必须尚未包含同名 DOCX：
+从技能目录运行，使用新的输出目录：
 
 ```bash
-python scripts/manual.py build examples/fictional-product.json --out sample-output
-python scripts/render.py sample-output
-python scripts/check.py examples/fictional-product.json sample-output
+python scripts/hardware.py validate examples/fictional-hardware.json
+python scripts/hardware.py build examples/fictional-hardware.json --out hardware-output
+python scripts/hardware.py render hardware-output
+python scripts/hardware_check.py examples/fictional-hardware.json hardware-output
 ```
 
-示例产品、参数和界面均为虚构。成功后得到 `manual-zh.docx`、`manual-en.docx`、两个 PDF、逐页 PNG、`build-report.json` 与 `qa-report.json`。自动 QA 通过后，仍需逐页目检。
+产生 `brochure-zh.pdf`、`brochure-en.pdf`、`specification-zh.docx`、`specification-en.docx`、规格书两份 PDF、所有页面 PNG、内部 `hardware-build-report.json`、自动 `hardware-qa-report.json`。样例产品、图像、所有参数与测试条件明确虚构。自动通过后仍需逐页打开 PNG 并核对资料。
 
-真实调用先复制示例 JSON 到自己的资料目录，再替换为本次证据支持的内容。图片相对于该 JSON 所在目录寻址；不得使用绝对路径或 `..`。生成器不会下载外部资源。
+完整说明见 [硬件输入约定](references/hardware-input-guide.md) 和 [样式契约](references/hardware-style-contract.md)。输入 `templates` 可只选择一种硬件文档。规格书可增加页数，彩页固定两页，过量内容必须显式编辑选择。
 
-`render.py` 只在新输出副本中更新目录缓存，不用 LibreOffice 回存整个 DOCX；页面与标题样式保持可编辑。后续在 Word 中修改内容后需要重新渲染/更新域，以免目录页码过期。
+## 软件操作手册回归用法
 
-## 分享边界
+```bash
+python scripts/manual.py build examples/fictional-product.json --out software-output
+python scripts/render.py software-output
+python scripts/check.py examples/fictional-product.json software-output
+```
 
-分享此文件夹即可；不要把自己的 `product.json`、原始资料、Logo、截图或生成的内部报告混入公共技能包。样式模板无正文，测试样例清楚标注虚构。发布 GitHub 的仓库与可见范围应由发布者确定。此包没有设置自动上传，也没有读取凭据的代码。
+得到中英 `manual` DOCX/PDF、逐页 PNG 和报告。渲染器只在输出副本更新目录缓存，不通过 LibreOffice 回存整个 DOCX。后续编辑后重新渲染/更新域。详见 [软件输入约定](references/input-guide.md)。
 
-不随包分发第三方字体或品牌资产；其使用权由输入提供者管理。源码复用许可由仓库所有者另行决定，本包不擅自给原品牌或源资料授予许可。
+## 真实使用与分享边界
+
+在自己的工作目录整理资料，按对应 schema 建立 JSON。图片相对于 JSON 寻址，禁止绝对路径和父目录跳转。脚本不下载图片、不读取凭据、不自动上传；使用本机字体发现和渲染进程。来源说明、缺口和构建报告可能包含内部内容，应留在本次工作区。
+
+分享完整技能文件夹即可，或分享仓库中已经脱敏的样张。不要混入原资料、真实 Logo、截图或内部报告。源码复用许可由仓库所有者另行决定，本包不擅自给原品牌或源资料授予许可。维护验证用 `python -m unittest discover -s tests -v`，并执行独立资料端到端前向调用，不能只验证文件结构。

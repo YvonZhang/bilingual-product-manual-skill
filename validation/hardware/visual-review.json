@@ -1,0 +1,456 @@
+{
+  "status": "passed",
+  "review_method": "Each rendered page was actually opened. Sample pages were also inspected side by side with authorized references; long-table Chinese/English pages were opened as paired page images. Canonical renders separately opened.",
+  "pages": [
+    {
+      "case": "hardware-sample",
+      "page": "pages-brochure-en/page-1.png",
+      "sha256": "3cb7fd16b7135ad91a13e961791bd41b06689e6c65fe95eb71a7e95ad2d02be7",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-sample",
+      "page": "pages-brochure-en/page-2.png",
+      "sha256": "3e11f375762553cb495ae82dfba0ccee48034baff04878a089bc86ad229c81b6",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-sample",
+      "page": "pages-brochure-zh/page-1.png",
+      "sha256": "95d54161a76678a6c502014c34a900961e68fcdde2446e2d7b1bf5b9ee0bb17b",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-sample",
+      "page": "pages-brochure-zh/page-2.png",
+      "sha256": "52f9f0505673887623d18ca811afda23426f72d18741a457e4e12cf04d21e208",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-sample",
+      "page": "pages-specification-en/page-1.png",
+      "sha256": "9a8259354bfa904f2a1b6d8a24f1adbaf17eca752ca4300419573ffd984aa47c",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-sample",
+      "page": "pages-specification-en/page-2.png",
+      "sha256": "d7d462b6ab61d8f47c0c4278bf0bb68e8cf7c7f231972a1c6d55c7b0f22d2c1e",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-sample",
+      "page": "pages-specification-en/page-3.png",
+      "sha256": "231b64b98f8d5def73a28a763bce6bee22ae3b8ffc908b6ae6936f6053668b7d",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-sample",
+      "page": "pages-specification-en/page-4.png",
+      "sha256": "3b6b3ee037cc8de2c5bc2879d9b55666b12b0f42752ed3bb8387419e0d4a1ba7",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-sample",
+      "page": "pages-specification-zh/page-1.png",
+      "sha256": "e311af622af5122851713d2a095228594e4aae419d89f0de129c972ce05fa0a4",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-sample",
+      "page": "pages-specification-zh/page-2.png",
+      "sha256": "93630015481e3f99fe97961ebf793844c420bfbcd5805bb7ae184e3f41938098",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-sample",
+      "page": "pages-specification-zh/page-3.png",
+      "sha256": "135f2f40d5e0c4d5890904c21492cf14fab2888cd164bef5bb6fe9143c58d203",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-sample",
+      "page": "pages-specification-zh/page-4.png",
+      "sha256": "5eb209fa7bfd3e000966a51fc6e56936576e23debcde60ea8b6c34652e8ce98c",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-boundary",
+      "page": "pages-brochure-en/page-1.png",
+      "sha256": "1d72ed6e011141c7ae8c491310f64103409a343faa71c6800bd3af9c5e56a425",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-boundary",
+      "page": "pages-brochure-en/page-2.png",
+      "sha256": "74c8766c67e655fb2610f266d8a37a4579fb59df2c045d97b296cf98d61e6011",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-boundary",
+      "page": "pages-brochure-zh/page-1.png",
+      "sha256": "fb2d354a4ffec71068ddf905fe1c66e34892e253177c93037aa4b745c1e79a5e",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-boundary",
+      "page": "pages-brochure-zh/page-2.png",
+      "sha256": "25a791c541169f3c57c44f79ff33505d9eba1932c9c781cbf70ab42c46337e10",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-boundary",
+      "page": "pages-specification-en/page-1.png",
+      "sha256": "6d3738a4c51baaff482186f78d798050d3c814da20390928f0450badeb6ba1cc",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-boundary",
+      "page": "pages-specification-en/page-2.png",
+      "sha256": "21df36a19fab60481d2bb0639e8d302e0bb3907ae8d6c8af51b16f83b8be7256",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-boundary",
+      "page": "pages-specification-en/page-3.png",
+      "sha256": "66782ca503fa19ba6a4bf1aa4a4e20f7a294dddd3207baf987c8d138113cf247",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-boundary",
+      "page": "pages-specification-en/page-4.png",
+      "sha256": "53cf40ea543e35d8b39530431f5067ccfb7a7bfc20939f341358d595b8634f80",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-boundary",
+      "page": "pages-specification-en/page-5.png",
+      "sha256": "cedcd3e43f2a04bb1bc665e5d4208d055a98e0660a0597fcade4bdc4845e8224",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-boundary",
+      "page": "pages-specification-zh/page-1.png",
+      "sha256": "e2912a1af8b625eaa34e04882dc67d63a5de882317858e803290311c7eab17be",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-boundary",
+      "page": "pages-specification-zh/page-2.png",
+      "sha256": "6f75a0df72111cdd0a04f2dd30ca499f5d887cb23a4cc00dca3d0ad8f636b047",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-boundary",
+      "page": "pages-specification-zh/page-3.png",
+      "sha256": "0ef28f7b933f99c1808c5a5e6d419f4f80fdf7638fae34900b9b966ee7f7ef90",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-boundary",
+      "page": "pages-specification-zh/page-4.png",
+      "sha256": "8448a43a692526188089f2e2a09b282e34192c5acdceff167ad94a8b2fb2b136",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "hardware-boundary",
+      "page": "pages-specification-zh/page-5.png",
+      "sha256": "d6f479da699422ac0f82d40d172582949e612da3196dc2534afcbd46b29016b2",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "canonical-specifications",
+      "page": "en/page-1.png",
+      "sha256": "9a8259354bfa904f2a1b6d8a24f1adbaf17eca752ca4300419573ffd984aa47c",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "canonical-specifications",
+      "page": "en/page-2.png",
+      "sha256": "d7d462b6ab61d8f47c0c4278bf0bb68e8cf7c7f231972a1c6d55c7b0f22d2c1e",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "canonical-specifications",
+      "page": "en/page-3.png",
+      "sha256": "231b64b98f8d5def73a28a763bce6bee22ae3b8ffc908b6ae6936f6053668b7d",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "canonical-specifications",
+      "page": "en/page-4.png",
+      "sha256": "3b6b3ee037cc8de2c5bc2879d9b55666b12b0f42752ed3bb8387419e0d4a1ba7",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "canonical-specifications",
+      "page": "zh/page-1.png",
+      "sha256": "e311af622af5122851713d2a095228594e4aae419d89f0de129c972ce05fa0a4",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "canonical-specifications",
+      "page": "zh/page-2.png",
+      "sha256": "93630015481e3f99fe97961ebf793844c420bfbcd5805bb7ae184e3f41938098",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "canonical-specifications",
+      "page": "zh/page-3.png",
+      "sha256": "135f2f40d5e0c4d5890904c21492cf14fab2888cd164bef5bb6fe9143c58d203",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    },
+    {
+      "case": "canonical-specifications",
+      "page": "zh/page-4.png",
+      "sha256": "5eb209fa7bfd3e000966a51fc6e56936576e23debcde60ea8b6c34652e8ce98c",
+      "visual_status": "passed",
+      "checks": [
+        "page hierarchy and whitespace",
+        "all text readable, no clipping/overlap",
+        "header label, revision, page number",
+        "table stripes, whole rows and repeated headers where applicable",
+        "fictional label and no unresolved placeholders"
+      ]
+    }
+  ],
+  "specific_findings": [
+    "Logo anchored at the shared 36 pt page margin; document labels aligned to the right margin.",
+    "Sample parameter rows match the reference 21.65 pt rendered height.",
+    "Boundary table continues on pages 3 and 4 with repeated headers, records 1-54 retained, no row splits.",
+    "Long formal title wraps into two Chinese/three English lines; brochure uses explicit short title.",
+    "No image/brand placeholder boxes; no performance page without evidence.",
+    "The two-row fictional performance sample intentionally has whitespace; no extra facts were added to fill a page."
+  ]
+}

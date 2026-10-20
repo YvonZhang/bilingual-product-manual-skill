@@ -1,0 +1,52 @@
+{
+  "automated_checks": "passed",
+  "visual_review": "required-separately",
+  "documents": {
+    "hardware-brochure": {
+      "zh": {
+        "pages": 2,
+        "text_coverage": "passed",
+        "equal_parameter_table_bottoms": true,
+        "bottom_pt": 564.0
+      },
+      "en": {
+        "pages": 2,
+        "text_coverage": "passed",
+        "equal_parameter_table_bottoms": true,
+        "bottom_pt": 564.0
+      }
+    },
+    "hardware-specification": {
+      "zh": {
+        "pages": 4,
+        "text_coverage": "passed",
+        "native_tables": 4,
+        "repeating_headers": "passed",
+        "whole_records": "passed"
+      },
+      "en": {
+        "pages": 4,
+        "text_coverage": "passed",
+        "native_tables": 4,
+        "repeating_headers": "passed",
+        "whole_records": "passed"
+      }
+    }
+  },
+  "bilingual_facts": "validated-shared-facts-and-translations",
+  "logo_widths_pt": [
+    79.37008,
+    79.37008,
+    79.37008,
+    79.37008,
+    79.35,
+    79.35,
+    79.35,
+    79.35,
+    79.35,
+    79.35,
+    79.35,
+    79.35
+  ],
+  "gap_count": 1
+}

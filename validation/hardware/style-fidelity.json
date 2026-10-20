@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "reference_hardware_artifacts": 6,
+  "reference_pdf_pages": 12,
+  "source_files_unchanged": 10,
+  "native_geometry_twips": {
+    "reference": {
+      "page_width": 11906,
+      "page_height": 16838,
+      "top_margin": 1956,
+      "bottom_margin": 1106,
+      "left_margin": 720,
+      "right_margin": 720,
+      "header_distance": 595,
+      "footer_distance": 465
+    },
+    "template": {
+      "page_width": 11906,
+      "page_height": 16838,
+      "top_margin": 1956,
+      "bottom_margin": 1106,
+      "left_margin": 720,
+      "right_margin": 720,
+      "header_distance": 595,
+      "footer_distance": 465
+    }
+  },
+  "logo_widths_pt": {
+    "reference": [
+      79.35,
+      79.3701
+    ],
+    "new": [
+      79.35,
+      79.3701
+    ]
+  },
+  "brochure_parameter_top_pt": 320,
+  "brochure_parameter_bottom_pt": 564,
+  "specification_single_row_heights_pt": {
+    "reference": [
+      21.65
+    ],
+    "fictional": [
+      21.65
+    ]
+  },
+  "palette": [
+    "102A4C",
+    "1465CB",
+    "536A83",
+    "EFF6FD",
+    "D6E3F0"
+  ],
+  "font_family": "Source Han Sans CN",
+  "comparison_pages": [
+    "brochure-zh-1.png",
+    "brochure-zh-2.png",
+    "brochure-en-1.png",
+    "brochure-en-2.png",
+    "specification-zh-1.png",
+    "specification-zh-2.png",
+    "specification-zh-3.png",
+    "specification-zh-4.png",
+    "specification-en-1.png",
+    "specification-en-2.png",
+    "specification-en-3.png",
+    "specification-en-4.png"
+  ],
+  "intentional_adaptations": [
+    "Only style transferred; all example facts/brand/images are fictional.",
+    "User image is contained in its box rather than cropped beyond the page.",
+    "Shared fact and version display, image-review metadata and explicit overflow failures.",
+    "Optional performance pages omitted if evidence absent; long tables flow to extra pages."
+  ],
+  "not_claimed": [
+    "Same business text or product facts",
+    "Pixel identity between different products",
+    "Cross-operating-system validation"
+  ],
+  "visual_review": "All 12 new pages compared to their authorized source page; comparison images remain local and are not shared."
+}

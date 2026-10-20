@@ -1,0 +1,28 @@
+{
+  "run": "hardware-final-regression",
+  "method": "Actually opened every final PNG after rebuilding unchanged independent input in output-final.",
+  "overall_result": "passed",
+  "pages": [
+    {"document": "brochure-zh", "page": 1, "status": "passed", "checked": "Product/model/revision and fictional notice, readable title and full-width text hero, three metrics, two scenarios, no fabricated image."},
+    {"document": "brochure-zh", "page": 2, "status": "passed", "checked": "Model/revision, all nine parameters, equal 564 pt column bottoms, example-power qualifier and temperature range, two feature cards."},
+    {"document": "brochure-en", "page": 1, "status": "passed", "checked": "Revision 0.3.0, training-simulation-only scope, 3 positions / 24 labels / 120 s, scenario cards fit."},
+    {"document": "brochure-en", "page": 2, "status": "passed", "checked": "Nine parameters and all units, example-power qualifier, equal columns, two demonstrated functions only."},
+    {"document": "specification-zh", "page": 1, "status": "passed", "checked": "Right-aligned document type, version/model header, overview and three-column native metric table."},
+    {"document": "specification-zh", "page": 2, "status": "passed", "checked": "Three groups/nine intact records, shared row heights, dimensions and temperature range, header/footer."},
+    {"document": "specification-zh", "page": 3, "status": "passed", "checked": "Two demonstrated functions and two applications, no added performance or contact content, final-page layout."},
+    {"document": "specification-en", "page": 1, "status": "passed", "checked": "Right-aligned document type, revision/model, preserved simulation scope and metric labels/values."},
+    {"document": "specification-en", "page": 2, "status": "passed", "checked": "Power-consumption label wraps safely, all nine complete records, correct values/units/range, footer."},
+    {"document": "specification-en", "page": 3, "status": "passed", "checked": "Correct features and applications, no unsupported claims, complete final page."}
+  ],
+  "version_omission": "fixed by parent and verified on all 10 pages",
+  "header_alignment": "fixed by parent and visually verified",
+  "bilingual_numeric_and_semantic_review": "passed",
+  "source_example_brand_residue": "none observed; extracted text also matched against current reader fields and neutral template labels",
+  "missing_glyphs_overlap_or_clipping": "none observed",
+  "input_changed_from_first_run": false,
+  "input_repairs_or_workarounds": [],
+  "production_files_modified_by_this_agent": false,
+  "remaining_failed_items": [],
+  "remaining_blockers": [],
+  "not_exercised": ["Image/interface review", "Logo width equality", "Long tables spanning pages", "Other operating systems"]
+}

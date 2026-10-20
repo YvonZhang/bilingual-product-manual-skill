@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "pages": [
+    {
+      "page": "pages-en/page-1.png",
+      "pixel_identical_to_v1": true
+    },
+    {
+      "page": "pages-en/page-2.png",
+      "pixel_identical_to_v1": true
+    },
+    {
+      "page": "pages-en/page-3.png",
+      "pixel_identical_to_v1": true
+    },
+    {
+      "page": "pages-en/page-4.png",
+      "pixel_identical_to_v1": true
+    },
+    {
+      "page": "pages-en/page-5.png",
+      "pixel_identical_to_v1": true
+    },
+    {
+      "page": "pages-zh/page-1.png",
+      "pixel_identical_to_v1": true
+    },
+    {
+      "page": "pages-zh/page-2.png",
+      "pixel_identical_to_v1": true
+    },
+    {
+      "page": "pages-zh/page-3.png",
+      "pixel_identical_to_v1": true
+    },
+    {
+      "page": "pages-zh/page-4.png",
+      "pixel_identical_to_v1": true
+    },
+    {
+      "page": "pages-zh/page-5.png",
+      "pixel_identical_to_v1": true
+    }
+  ]
+}

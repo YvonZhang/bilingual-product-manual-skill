@@ -1,0 +1,115 @@
+{
+  "documents": {
+    "brochure-zh.pdf": {
+      "pages": 2,
+      "version_on_each_page": [
+        true,
+        true
+      ],
+      "model_on_each_page": [
+        true,
+        true
+      ],
+      "unexpected_word_or_brand_residue": "",
+      "pdf_image_count_each_page": [
+        0,
+        0
+      ],
+      "header_right_edges_pt": [
+        559.276,
+        559.276
+      ]
+    },
+    "brochure-en.pdf": {
+      "pages": 2,
+      "version_on_each_page": [
+        true,
+        true
+      ],
+      "model_on_each_page": [
+        true,
+        true
+      ],
+      "unexpected_word_or_brand_residue": "",
+      "pdf_image_count_each_page": [
+        0,
+        0
+      ],
+      "header_right_edges_pt": [
+        559.276,
+        559.276
+      ]
+    },
+    "specification-zh.pdf": {
+      "pages": 3,
+      "version_on_each_page": [
+        true,
+        true,
+        true
+      ],
+      "model_on_each_page": [
+        true,
+        true,
+        true
+      ],
+      "unexpected_word_or_brand_residue": "",
+      "pdf_image_count_each_page": [
+        0,
+        0,
+        0
+      ],
+      "header_right_edges_pt": [
+        559.4,
+        559.4,
+        559.4
+      ],
+      "editable_docx": {
+        "paragraphs": 51,
+        "text_runs": 51,
+        "native_tables": 5,
+        "drawings": 0,
+        "custom_xml_parts": [],
+        "media_parts": [],
+        "all_table_headers_repeatable": true
+      }
+    },
+    "specification-en.pdf": {
+      "pages": 3,
+      "version_on_each_page": [
+        true,
+        true,
+        true
+      ],
+      "model_on_each_page": [
+        true,
+        true,
+        true
+      ],
+      "unexpected_word_or_brand_residue": "",
+      "pdf_image_count_each_page": [
+        0,
+        0,
+        0
+      ],
+      "header_right_edges_pt": [
+        559.293,
+        559.293,
+        559.293
+      ],
+      "editable_docx": {
+        "paragraphs": 51,
+        "text_runs": 51,
+        "native_tables": 5,
+        "drawings": 0,
+        "custom_xml_parts": [],
+        "media_parts": [],
+        "all_table_headers_repeatable": true
+      }
+    }
+  },
+  "residue_method": "Removed reader-facing input text, shared metric values, neutral template labels and model/version from extracted PDF text; inspected remaining letters and Chinese characters. Also visually reviewed every page.",
+  "input_sha256": "db83af46e6213369335d107022b11a7c1d2a05ff254e1d65f8e90dc776dca176",
+  "input_unchanged_from_first": true,
+  "skill_source_changes_during_final_run": [],
+  "input_content_repairs_or_workarounds": []
+}

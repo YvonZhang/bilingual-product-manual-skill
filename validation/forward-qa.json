@@ -1,0 +1,37 @@
+{
+  "automated_checks": "passed",
+  "visual_review": "required-separately",
+  "languages": [
+    {
+      "language": "zh",
+      "pages": 4,
+      "text_coverage": "passed",
+      "toc_caches": "passed",
+      "geometry": "passed",
+      "placeholders": "none",
+      "package_relationships": "internal-only"
+    },
+    {
+      "language": "en",
+      "pages": 4,
+      "text_coverage": "passed",
+      "toc_caches": "passed",
+      "geometry": "passed",
+      "placeholders": "none",
+      "package_relationships": "internal-only"
+    }
+  ],
+  "structure": {
+    "zh": {
+      "headings": 7,
+      "tables": 1,
+      "figures": 0
+    },
+    "en": {
+      "headings": 7,
+      "tables": 1,
+      "figures": 0
+    }
+  },
+  "gap_count": 6
+}

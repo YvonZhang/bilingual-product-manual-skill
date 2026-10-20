@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "files_checked": 39,
+  "checks": [
+    "known original brand/contact/product terms",
+    "local absolute home paths",
+    "credential/private-key patterns",
+    "original media hashes",
+    "original text paragraphs of 35+ characters",
+    "DOCX personal author metadata"
+  ],
+  "matches": [],
+  "note": "Pattern and source matching supplement file review; they are not a universal secret detector."
+}

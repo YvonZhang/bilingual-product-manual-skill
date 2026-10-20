@@ -1,0 +1,136 @@
+{
+  "zh": {
+    "paragraphs": 45,
+    "text_runs": 68,
+    "tables": 1,
+    "drawings": 0,
+    "toc_entries": [
+      {
+        "text": "1 简介3",
+        "style": "Contents1",
+        "right_tab_twips": [
+          "9936"
+        ]
+      },
+      {
+        "text": "1.1 使用准备3",
+        "style": "Contents2",
+        "right_tab_twips": [
+          "9936"
+        ]
+      },
+      {
+        "text": "1.2 刷新周期与数量限制3",
+        "style": "Contents2",
+        "right_tab_twips": [
+          "9936"
+        ]
+      },
+      {
+        "text": "2 操作说明4",
+        "style": "Contents1",
+        "right_tab_twips": [
+          "9936"
+        ]
+      },
+      {
+        "text": "2.1 创建卡片4",
+        "style": "Contents2",
+        "right_tab_twips": [
+          "9936"
+        ]
+      },
+      {
+        "text": "2.2 搜索与重置筛选4",
+        "style": "Contents2",
+        "right_tab_twips": [
+          "9936"
+        ]
+      },
+      {
+        "text": "2.3 导出文本4",
+        "style": "Contents2",
+        "right_tab_twips": [
+          "9936"
+        ]
+      }
+    ],
+    "native_editable_ooxml": true,
+    "all_visible_docx_text_equal_to_first_run": true,
+    "page_pixels_equal_to_first_run": {
+      "1": true,
+      "2": false,
+      "3": true,
+      "4": true
+    },
+    "pdf_pages": 4
+  },
+  "en": {
+    "paragraphs": 45,
+    "text_runs": 68,
+    "tables": 1,
+    "drawings": 0,
+    "toc_entries": [
+      {
+        "text": "1 Introduction3",
+        "style": "Contents1",
+        "right_tab_twips": [
+          "9936"
+        ]
+      },
+      {
+        "text": "1.1 Before You Begin3",
+        "style": "Contents2",
+        "right_tab_twips": [
+          "9936"
+        ]
+      },
+      {
+        "text": "1.2 Refresh Interval and Card Limits3",
+        "style": "Contents2",
+        "right_tab_twips": [
+          "9936"
+        ]
+      },
+      {
+        "text": "2 Operating Instructions4",
+        "style": "Contents1",
+        "right_tab_twips": [
+          "9936"
+        ]
+      },
+      {
+        "text": "2.1 Create a Card4",
+        "style": "Contents2",
+        "right_tab_twips": [
+          "9936"
+        ]
+      },
+      {
+        "text": "2.2 Search and Reset Filters4",
+        "style": "Contents2",
+        "right_tab_twips": [
+          "9936"
+        ]
+      },
+      {
+        "text": "2.3 Export Text4",
+        "style": "Contents2",
+        "right_tab_twips": [
+          "9936"
+        ]
+      }
+    ],
+    "native_editable_ooxml": true,
+    "all_visible_docx_text_equal_to_first_run": true,
+    "page_pixels_equal_to_first_run": {
+      "1": true,
+      "2": false,
+      "3": true,
+      "4": true
+    },
+    "pdf_pages": 4
+  },
+  "product_hash_unchanged_during_regression": true,
+  "tested_skill_files_changed_during_regression": []
+}

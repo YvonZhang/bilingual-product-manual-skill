@@ -1,0 +1,17 @@
+{
+  "name": "monochrome-software-manual",
+  "fonts": {
+    "latin": "Arial",
+    "cjk": "Source Han Sans CN",
+    "code": "Courier New"
+  },
+  "text_color": "000000",
+  "caption_color": "505964",
+  "table_header_fill": "EDEFF2",
+  "table_border": "D9D9D9",
+  "cover_top_space_pt": 90,
+  "cover_brand_space_pt": 148,
+  "toc_depth": 2,
+  "figure_max_width_in": 6.9,
+  "figure_max_height_in": 5.4
+}

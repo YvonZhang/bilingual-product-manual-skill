@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "template": "software-manual",
+  "fictional": true,
+  "meta": {
+    "product": {
+      "zh": "星笺资料整理台",
+      "en": "Starleaf Notes Studio"
+    },
+    "version": "0.4.0",
+    "intro": {
+      "zh": "本手册介绍资料整理、检索和导出流程。粗体表示界面控件。本示例产品及所有参数均为虚构，仅用于验证模板。",
+      "en": "This manual covers organizing, finding, and exporting notes. Bold text identifies interface controls. This product and all parameters are fictional and exist only to test the template."
+    }
+  },
+  "brand": {
+    "name": {
+      "zh": "示例实验室",
+      "en": "Example Lab"
+    },
+    "contact": {
+      "zh": "docs.example.invalid",
+      "en": "docs.example.invalid"
+    }
+  },
+  "sources": [
+    {
+      "id": "fictional-notes",
+      "description": "Fictional source notes included with this example; not a real product.",
+      "fictional": true
+    }
+  ],
+  "facts": {
+    "interval": {
+      "value": "15",
+      "unit": "s",
+      "sources": [
+        "fictional-notes"
+      ]
+    },
+    "sample_limit": {
+      "value": "120",
+      "sources": [
+        "fictional-notes"
+      ]
+    },
+    "export_limit": {
+      "value": "30",
+      "sources": [
+        "fictional-notes"
+      ]
+    }
+  },
+  "gaps": [
+    {
+      "field": "certifications",
+      "reason": "No certification information was supplied for the fictional product.",
+      "action": "omit"
+    }
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "level": 1,
+      "title": {
+        "zh": "简介",
+        "en": "Introduction"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": {
+            "zh": "星笺资料整理台用于在示例工作区中整理演示资料。读者可按快速入门完成第一条记录，并在操作说明中了解检索和导出。",
+            "en": "Starleaf Notes Studio organizes demonstration notes in a sample workspace. Follow Quick Start to create the first record, then use the operating instructions to find and export records."
+          },
+          "sources": [
+            "fictional-notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "level": 2,
+      "title": {
+        "zh": "适用范围",
+        "en": "Scope"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": {
+            "zh": "本文覆盖记录管理流程。示例不提供设备接入、告警处理或认证声明。",
+            "en": "This document covers record management. The example does not provide device connections, alarm handling, or certification claims."
+          },
+          "sources": [
+            "fictional-notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "requirements",
+      "level": 1,
+      "title": {
+        "zh": "使用准备",
+        "en": "Before You Begin"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": {
+            "zh": "使用已获得授权的示例账户打开本地演示工作区。账户由演示组织者提供，本文不包含固定口令。",
+            "en": "Open the local demonstration workspace with an authorized sample account. The demonstration organizer supplies the account; this manual contains no fixed password."
+          },
+          "sources": [
+            "fictional-notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quick-start",
+      "level": 1,
+      "page_break": true,
+      "title": {
+        "zh": "快速入门",
+        "en": "Quick Start"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": {
+            "zh": "确认页面显示虚构示例标记，再开始录入。",
+            "en": "Confirm that the page displays the fictional-example label before entering data."
+          },
+          "sources": [
+            "fictional-notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "create-record",
+      "level": 2,
+      "title": {
+        "zh": "创建记录",
+        "en": "Create a Record"
+      },
+      "blocks": [
+        {
+          "type": "step",
+          "text": {
+            "zh": "进入 **资料库（Library）**，选择 **新建记录（New record）**。",
+            "en": "Open **Library** and choose **New record**."
+          },
+          "sources": [
+            "fictional-notes"
+          ]
+        },
+        {
+          "type": "step",
+          "text": {
+            "zh": "输入记录标题和说明，选择 **保存（Save）**。",
+            "en": "Enter a record title and description, then select **Save**."
+          },
+          "sources": [
+            "fictional-notes"
+          ]
+        },
+        {
+          "type": "figure",
+          "id": "library",
+          "path": "images/demo-ui.png",
+          "caption": {
+            "zh": "虚构资料库界面示意",
+            "en": "Fictional library interface"
+          },
+          "alt": {
+            "zh": "虚构资料库包含新建记录按钮和演示记录列表。",
+            "en": "The fictional library contains a New record button and a list of demonstration records."
+          },
+          "sources": [
+            "fictional-notes"
+          ]
+        },
+        {
+          "type": "step",
+          "text": {
+            "zh": "保存后确认记录出现在列表中。示例列表每 {{fact:interval}} 刷新一次。",
+            "en": "After saving, confirm that the record appears in the list. The sample list refreshes every {{fact:interval}}."
+          },
+          "sources": [
+            "fictional-notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operation",
+      "level": 1,
+      "page_break": true,
+      "title": {
+        "zh": "操作说明",
+        "en": "Operating Instructions"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": {
+            "zh": "本章介绍重复使用的查询、导出和状态检查步骤。",
+            "en": "This chapter explains recurring search, export, and status-checking tasks."
+          },
+          "sources": [
+            "fictional-notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "query",
+      "level": 2,
+      "title": {
+        "zh": "查询和导出",
+        "en": "Search and Export"
+      },
+      "blocks": [
+        {
+          "type": "step",
+          "text": {
+            "zh": "在 **搜索（Search）** 框中输入标题关键词，然后选择匹配的记录。",
+            "en": "Enter a title keyword in **Search**, then select a matching record."
+          },
+          "sources": [
+            "fictional-notes"
+          ]
+        },
+        {
+          "type": "step",
+          "text": {
+            "zh": "选择 **导出（Export）** 以下载当前记录的文本副本。每次导出最多包含 {{fact:export_limit}} 条演示记录。",
+            "en": "Choose **Export** to download a text copy of the current records. Each export contains at most {{fact:export_limit}} demonstration records."
+          },
+          "sources": [
+            "fictional-notes"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": {
+            "zh": "虚构示例参数",
+            "en": "Fictional example parameters"
+          },
+          "headers": [
+            {
+              "zh": "项目",
+              "en": "Item"
+            },
+            {
+              "zh": "数值",
+              "en": "Value"
+            },
+            {
+              "zh": "说明",
+              "en": "Notes"
+            }
+          ],
+          "widths": [
+            2,
+            1,
+            3
+          ],
+          "rows": [
+            [
+              {
+                "zh": "演示记录上限",
+                "en": "Demonstration record limit"
+              },
+              {
+                "zh": "{{fact:sample_limit}}",
+                "en": "{{fact:sample_limit}}"
+              },
+              {
+                "zh": "仅用于测试数据容量布局",
+                "en": "Used only to test a capacity-value layout"
+              }
+            ],
+            [
+              {
+                "zh": "列表刷新周期",
+                "en": "List refresh interval"
+              },
+              {
+                "zh": "{{fact:interval}}",
+                "en": "{{fact:interval}}"
+              },
+              {
+                "zh": "用于验证两种语言的数值和单位一致",
+                "en": "Tests matching values and units across languages"
+              }
+            ]
+          ],
+          "sources": [
+            "fictional-notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "status",
+      "level": 2,
+      "title": {
+        "zh": "状态检查",
+        "en": "Check Status"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": {
+            "zh": "若列表未显示预期记录，先检查当前筛选条件，再重新执行查询。若仍为空，联系演示组织者核对样例数据。",
+            "en": "If an expected record is missing, check the current filter and search again. If the list remains empty, ask the demonstration organizer to verify the sample data."
+          },
+          "sources": [
+            "fictional-notes"
+          ]
+        }
+      ]
+    }
+  ]
+}

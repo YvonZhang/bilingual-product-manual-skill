@@ -1,0 +1,21 @@
+test_asset_parent_escape_is_rejected (test_manual.ManualBehaviorTests.test_asset_parent_escape_is_rejected) ... ok
+test_different_numeric_capacity_is_rejected (test_manual.ManualBehaviorTests.test_different_numeric_capacity_is_rejected) ... ok
+test_different_units_are_rejected (test_manual.ManualBehaviorTests.test_different_units_are_rejected) ... ok
+test_fictional_source_cannot_lose_visible_label (test_manual.ManualBehaviorTests.test_fictional_source_cannot_lose_visible_label) ... ok
+test_fresh_relocated_skill_works_outside_its_cwd (test_manual.ManualBehaviorTests.test_fresh_relocated_skill_works_outside_its_cwd) ... ok
+test_heading_gap_is_rejected (test_manual.ManualBehaviorTests.test_heading_gap_is_rejected) ... ok
+test_incomplete_table_record_is_rejected (test_manual.ManualBehaviorTests.test_incomplete_table_record_is_rejected) ... ok
+test_missing_english_cannot_silently_emit_chinese_twice (test_manual.ManualBehaviorTests.test_missing_english_cannot_silently_emit_chinese_twice) ... ok
+test_missing_figure_is_rejected (test_manual.ManualBehaviorTests.test_missing_figure_is_rejected) ... ok
+test_negative_sign_is_not_lost_in_translation (test_manual.ManualBehaviorTests.test_negative_sign_is_not_lost_in_translation) ... ok
+test_optional_brand_images_and_gaps_do_not_become_public_placeholders (test_manual.ManualBehaviorTests.test_optional_brand_images_and_gaps_do_not_become_public_placeholders) ... ok
+test_tall_record_cannot_be_clipped_by_row_keep_rule (test_manual.ManualBehaviorTests.test_tall_record_cannot_be_clipped_by_row_keep_rule) ... ok
+test_unknown_source_is_rejected (test_manual.ManualBehaviorTests.test_unknown_source_is_rejected) ... ok
+test_unresolved_fact_is_rejected (test_manual.ManualBehaviorTests.test_unresolved_fact_is_rejected) ... ok
+test_unsupported_specification_mode_is_rejected (test_manual.ManualBehaviorTests.test_unsupported_specification_mode_is_rejected) ... ok
+test_visible_draft_markers_are_rejected (test_manual.ManualBehaviorTests.test_visible_draft_markers_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.180s
+
+OK

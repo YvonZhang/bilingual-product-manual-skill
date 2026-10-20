@@ -1,0 +1,38 @@
+{
+  "zh": {
+    "Normal": true,
+    "Title": true,
+    "Subtitle": true,
+    "Heading1": true,
+    "Heading2": true,
+    "Heading3": true,
+    "Heading4": true,
+    "Caption": true,
+    "Footer": true,
+    "Header": true,
+    "Picture": true,
+    "BodyStep": true,
+    "Code": true,
+    "CoverMetadata": true,
+    "Contents1": true,
+    "Contents2": true
+  },
+  "en": {
+    "Normal": true,
+    "Title": true,
+    "Subtitle": true,
+    "Heading1": true,
+    "Heading2": true,
+    "Heading3": true,
+    "Heading4": true,
+    "Caption": true,
+    "Footer": true,
+    "Header": true,
+    "Picture": true,
+    "BodyStep": true,
+    "Code": true,
+    "CoverMetadata": true,
+    "Contents1": true,
+    "Contents2": true
+  }
+}

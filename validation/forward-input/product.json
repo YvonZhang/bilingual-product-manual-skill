@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "template": "software-manual",
+  "fictional": true,
+  "meta": {
+    "product": {
+      "zh": "雪松队列工作台",
+      "en": "Cedar Queue Workbench"
+    },
+    "version": "0.7.2",
+    "intro": {
+      "zh": "本手册介绍演示队列中的卡片创建、搜索、筛选重置和文本导出。粗体表示界面控件。本产品及所有数据均为虚构，仅用于验证技能。",
+      "en": "This manual describes creating cards, searching, resetting filters, and exporting text in the demonstration queue. Bold text identifies interface controls. The product and all data are fictional and are used only to validate the skill."
+    },
+    "applies_to": {
+      "zh": "适用于培训演示组织者",
+      "en": "For training demonstration organizers"
+    }
+  },
+  "sources": [
+    {
+      "id": "product-overview",
+      "description": "source.md：虚构产品声明、产品名称、版本、用途及适用对象。",
+      "fictional": true
+    },
+    {
+      "id": "account-preparation",
+      "description": "source.md：操作者使用组织者分配的演示账户，未提供固定密码。",
+      "fictional": true
+    },
+    {
+      "id": "create-flow",
+      "description": "source.md：流程一，打开 Queue，选择 New card，填写 Title 与 Owner，点击 Save；卡片显示在队列顶部。",
+      "fictional": true
+    },
+    {
+      "id": "search-flow",
+      "description": "source.md：流程二，在 Search 输入标题关键词，点击 Search，点击 Reset 清空筛选条件。",
+      "fictional": true
+    },
+    {
+      "id": "export-flow",
+      "description": "source.md：流程三，选择 Export text，下载当前筛选结果的文本文件；单次最多 25 张卡片。",
+      "fictional": true
+    },
+    {
+      "id": "queue-limits",
+      "description": "source.md：队列状态每 20 s 刷新；演示工作区最多保留 150 张卡片。",
+      "fictional": true
+    }
+  ],
+  "facts": {
+    "export_limit": {
+      "value": "25",
+      "sources": ["export-flow"]
+    },
+    "refresh_interval": {
+      "value": "20",
+      "unit": "s",
+      "sources": ["queue-limits"]
+    },
+    "workspace_limit": {
+      "value": "150",
+      "sources": ["queue-limits"]
+    }
+  },
+  "gaps": [
+    {
+      "field": "brand.logo",
+      "reason": "资料明确没有 Logo。",
+      "action": "omit"
+    },
+    {
+      "field": "figures",
+      "reason": "资料明确没有截图；不编造产品界面。",
+      "action": "omit"
+    },
+    {
+      "field": "brand.contact",
+      "reason": "资料明确没有联系方式。",
+      "action": "omit"
+    },
+    {
+      "field": "certifications",
+      "reason": "资料明确没有认证信息。",
+      "action": "omit"
+    },
+    {
+      "field": "fixed_password",
+      "reason": "资料未提供固定密码；操作者使用组织者分配的演示账户。",
+      "action": "internal"
+    },
+    {
+      "field": "system_requirements",
+      "reason": "资料未提供操作系统、浏览器或硬件要求；不添加要求章节。",
+      "action": "omit"
+    }
+  ],
+  "sections": [
+    {
+      "id": "introduction",
+      "level": 1,
+      "title": {"zh": "简介", "en": "Introduction"},
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": {
+            "zh": "雪松队列工作台用于在演示队列中整理待办卡片，适用于培训演示组织者。",
+            "en": "Cedar Queue Workbench organizes to-do cards in a demonstration queue and is intended for training demonstration organizers."
+          },
+          "sources": ["product-overview"]
+        }
+      ]
+    },
+    {
+      "id": "account",
+      "level": 2,
+      "title": {"zh": "使用准备", "en": "Before You Begin"},
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": {
+            "zh": "使用组织者分配的演示账户操作工作台。",
+            "en": "Use the demonstration account assigned by the organizer to operate the workbench."
+          },
+          "sources": ["account-preparation"]
+        }
+      ]
+    },
+    {
+      "id": "limits",
+      "level": 2,
+      "title": {"zh": "刷新周期与数量限制", "en": "Refresh Interval and Card Limits"},
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            {"zh": "项目", "en": "Item"},
+            {"zh": "说明", "en": "Description"}
+          ],
+          "widths": [2, 4],
+          "rows": [
+            [
+              {"zh": "队列状态刷新", "en": "Queue status refresh"},
+              {"zh": "每 {{fact:refresh_interval}} 刷新", "en": "Refreshes every {{fact:refresh_interval}}"}
+            ],
+            [
+              {"zh": "工作区卡片容量", "en": "Workspace card capacity"},
+              {"zh": "演示工作区最多保留 {{fact:workspace_limit}} 张卡片", "en": "The demonstration workspace retains at most {{fact:workspace_limit}} cards"}
+            ],
+            [
+              {"zh": "单次导出上限", "en": "Per-export limit"},
+              {"zh": "每次最多导出 {{fact:export_limit}} 张卡片", "en": "Each export contains at most {{fact:export_limit}} cards"}
+            ]
+          ],
+          "sources": ["queue-limits", "export-flow"]
+        }
+      ]
+    },
+    {
+      "id": "operations",
+      "level": 1,
+      "page_break": true,
+      "title": {"zh": "操作说明", "en": "Operating Instructions"},
+      "blocks": []
+    },
+    {
+      "id": "create-card",
+      "level": 2,
+      "title": {"zh": "创建卡片", "en": "Create a Card"},
+      "blocks": [
+        {
+          "type": "step",
+          "text": {"zh": "打开 **Queue**。", "en": "Open **Queue**."},
+          "sources": ["create-flow"]
+        },
+        {
+          "type": "step",
+          "text": {"zh": "选择 **New card**。", "en": "Select **New card**."},
+          "sources": ["create-flow"]
+        },
+        {
+          "type": "step",
+          "text": {"zh": "填写 **Title** 与 **Owner**。", "en": "Fill in **Title** and **Owner**."},
+          "sources": ["create-flow"]
+        },
+        {
+          "type": "step",
+          "text": {"zh": "点击 **Save**。", "en": "Click **Save**."},
+          "sources": ["create-flow"]
+        },
+        {
+          "type": "paragraph",
+          "text": {"zh": "卡片显示在队列顶部。", "en": "The card appears at the top of the queue."},
+          "sources": ["create-flow"]
+        }
+      ]
+    },
+    {
+      "id": "search-reset",
+      "level": 2,
+      "title": {"zh": "搜索与重置筛选", "en": "Search and Reset Filters"},
+      "blocks": [
+        {
+          "type": "step",
+          "text": {"zh": "在 **Search** 输入标题关键词。", "en": "Enter a title keyword in **Search**."},
+          "sources": ["search-flow"]
+        },
+        {
+          "type": "step",
+          "text": {"zh": "点击 **Search**。", "en": "Click **Search**."},
+          "sources": ["search-flow"]
+        },
+        {
+          "type": "step",
+          "text": {"zh": "点击 **Reset** 清空筛选条件。", "en": "Click **Reset** to clear the filters."},
+          "sources": ["search-flow"]
+        }
+      ]
+    },
+    {
+      "id": "export-text",
+      "level": 2,
+      "title": {"zh": "导出文本", "en": "Export Text"},
+      "blocks": [
+        {
+          "type": "step",
+          "text": {"zh": "选择 **Export text**。", "en": "Select **Export text**."},
+          "sources": ["export-flow"]
+        },
+        {
+          "type": "step",
+          "text": {"zh": "下载当前筛选结果的文本文件。", "en": "Download the text file containing the current filtered results."},
+          "sources": ["export-flow"]
+        },
+        {
+          "type": "note",
+          "text": {
+            "zh": "单次导出最多包含 {{fact:export_limit}} 张卡片。",
+            "en": "A single export contains at most {{fact:export_limit}} cards."
+          },
+          "sources": ["export-flow"]
+        }
+      ]
+    }
+  ]
+}

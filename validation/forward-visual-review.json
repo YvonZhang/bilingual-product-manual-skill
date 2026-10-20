@@ -1,0 +1,26 @@
+{
+  "run": "final-regression",
+  "performed_by": "independent forward-test agent",
+  "method": "Opened each of the eight final 120 dpi PNGs again after the parent fixed the skill; reused unchanged product.json.",
+  "result": "passed",
+  "pages": [
+    {"language": "zh", "page": 1, "status": "passed", "checked": "Cover line breaks, product, version, audience and fictional label; no header/footer on cover."},
+    {"language": "zh", "page": 2, "status": "passed", "checked": "All contents page numbers share a right edge; headings point to physical pages 3/4; footer 2/4."},
+    {"language": "zh", "page": 3, "status": "passed", "checked": "Chinese characters, purpose, account preparation, 20 s / 150 / 25 table, header/footer."},
+    {"language": "zh", "page": 4, "status": "passed", "checked": "All three procedures, exact control labels, step numbering, at-most export limit and last-page completeness."},
+    {"language": "en", "page": 1, "status": "passed", "checked": "Full product title, manual title, version, audience and fictional label; no overflow."},
+    {"language": "en", "page": 2, "status": "passed", "checked": "All contents page numbers share a right edge; page references and footer are correct."},
+    {"language": "en", "page": 3, "status": "passed", "checked": "Purpose, organizer-assigned account, refresh and maximum quantities, intact table and readable lines."},
+    {"language": "en", "page": 4, "status": "passed", "checked": "Create result, title-keyword search, Reset clearing filters, current-filtered-results export, at-most limit and final page."}
+  ],
+  "original_finding_toc_alignment": "fixed and visually verified",
+  "original_warning_style_id": "not present in final build stderr",
+  "facts_and_semantics": "passed",
+  "content_changed_to_fit_layout": false,
+  "missing_glyphs": "none observed",
+  "overlap_clipping_or_orphan_headings": "none observed",
+  "figures_and_captions": "not applicable: no images supplied or generated",
+  "repeated_table_header_across_pages": "not exercised: source table fits on one page",
+  "skill_source_edited_by_this_agent": false,
+  "remaining_blockers": []
+}

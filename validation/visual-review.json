@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-20",
+  "method": "The implementing agent opened every final page PNG; independent forward-test pages were separately opened by the independent agent. Reports distinguish these from automated checks.",
+  "sample": [
+    {
+      "language": "zh",
+      "page": 1,
+      "status": "passed",
+      "checked": "Cover title, line breaks, version and fictional notice; no running header/footer."
+    },
+    {
+      "language": "zh",
+      "page": 2,
+      "status": "passed",
+      "checked": "Contents labels, shared right edge, actual heading page references and page count."
+    },
+    {
+      "language": "zh",
+      "page": 3,
+      "status": "passed",
+      "checked": "Body fonts, Chinese glyphs, headings, table, margins, running header/footer."
+    },
+    {
+      "language": "zh",
+      "page": 4,
+      "status": "passed",
+      "checked": "Steps, bold controls, fictional image scale/caption, pagination and page footer."
+    },
+    {
+      "language": "zh",
+      "page": 5,
+      "status": "passed",
+      "checked": "Search/export/status procedures, facts, units and complete final page."
+    },
+    {
+      "language": "en",
+      "page": 1,
+      "status": "passed",
+      "checked": "Cover title, line breaks, version and fictional notice; no running header/footer."
+    },
+    {
+      "language": "en",
+      "page": 2,
+      "status": "passed",
+      "checked": "Contents labels, shared right edge, actual heading page references and page count."
+    },
+    {
+      "language": "en",
+      "page": 3,
+      "status": "passed",
+      "checked": "Body fonts, Chinese glyphs, headings, table, margins, running header/footer."
+    },
+    {
+      "language": "en",
+      "page": 4,
+      "status": "passed",
+      "checked": "Steps, bold controls, fictional image scale/caption, pagination and page footer."
+    },
+    {
+      "language": "en",
+      "page": 5,
+      "status": "passed",
+      "checked": "Search/export/status procedures, facts, units and complete final page."
+    }
+  ],
+  "boundary": [
+    {
+      "language": "zh",
+      "page": 1,
+      "status": "passed",
+      "checked": "Long cover and line breaks."
+    },
+    {
+      "language": "zh",
+      "page": 2,
+      "status": "passed",
+      "checked": "Long contents entry and its actual page reference."
+    },
+    {
+      "language": "zh",
+      "page": 3,
+      "status": "passed",
+      "checked": "Long heading where present, complete table rows, repeating header, no clipped text, page footer."
+    },
+    {
+      "language": "zh",
+      "page": 4,
+      "status": "passed",
+      "checked": "Long heading where present, complete table rows, repeating header, no clipped text, page footer."
+    },
+    {
+      "language": "zh",
+      "page": 5,
+      "status": "passed",
+      "checked": "Long heading where present, complete table rows, repeating header, no clipped text, page footer."
+    },
+    {
+      "language": "zh",
+      "page": 6,
+      "status": "passed",
+      "checked": "Long heading where present, complete table rows, repeating header, no clipped text, page footer."
+    },
+    {
+      "language": "zh",
+      "page": 7,
+      "status": "passed",
+      "checked": "Long heading where present, complete table rows, repeating header, no clipped text, page footer."
+    },
+    {
+      "language": "zh",
+      "page": 8,
+      "status": "passed",
+      "checked": "Long heading where present, complete table rows, repeating header, no clipped text, page footer."
+    },
+    {
+      "language": "en",
+      "page": 1,
+      "status": "passed",
+      "checked": "Long cover and line breaks."
+    },
+    {
+      "language": "en",
+      "page": 2,
+      "status": "passed",
+      "checked": "Long contents entry and its actual page reference."
+    },
+    {
+      "language": "en",
+      "page": 3,
+      "status": "passed",
+      "checked": "Long heading where present, complete table rows, repeating header, no clipped text, page footer."
+    },
+    {
+      "language": "en",
+      "page": 4,
+      "status": "passed",
+      "checked": "Long heading where present, complete table rows, repeating header, no clipped text, page footer."
+    },
+    {
+      "language": "en",
+      "page": 5,
+      "status": "passed",
+      "checked": "Long heading where present, complete table rows, repeating header, no clipped text, page footer."
+    },
+    {
+      "language": "en",
+      "page": 6,
+      "status": "passed",
+      "checked": "Long heading where present, complete table rows, repeating header, no clipped text, page footer."
+    }
+  ],
+  "boundary_note": "All 54 records remain complete. The last Chinese page contains record 54 and substantial whitespace; it is an intentional pagination outcome, not missing content.",
+  "independent_forward": "See forward-visual-review.json for all 8 pages.",
+  "final_unique_pages_reviewed": 32,
+  "canonical_sample_render": "All 10 standard-render pages were also opened. Pixel identity is recorded separately.",
+  "observed_missing_glyphs_overlaps_or_clipping": "none"
+}

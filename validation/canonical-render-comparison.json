@@ -1,0 +1,62 @@
+[
+  {
+    "lang": "zh",
+    "page": 1,
+    "same_dimensions": true,
+    "pixel_identical": true
+  },
+  {
+    "lang": "zh",
+    "page": 2,
+    "same_dimensions": true,
+    "pixel_identical": true
+  },
+  {
+    "lang": "zh",
+    "page": 3,
+    "same_dimensions": true,
+    "pixel_identical": true
+  },
+  {
+    "lang": "zh",
+    "page": 4,
+    "same_dimensions": true,
+    "pixel_identical": true
+  },
+  {
+    "lang": "zh",
+    "page": 5,
+    "same_dimensions": true,
+    "pixel_identical": true
+  },
+  {
+    "lang": "en",
+    "page": 1,
+    "same_dimensions": true,
+    "pixel_identical": true
+  },
+  {
+    "lang": "en",
+    "page": 2,
+    "same_dimensions": true,
+    "pixel_identical": true
+  },
+  {
+    "lang": "en",
+    "page": 3,
+    "same_dimensions": true,
+    "pixel_identical": true
+  },
+  {
+    "lang": "en",
+    "page": 4,
+    "same_dimensions": true,
+    "pixel_identical": true
+  },
+  {
+    "lang": "en",
+    "page": 5,
+    "same_dimensions": true,
+    "pixel_identical": true
+  }
+]

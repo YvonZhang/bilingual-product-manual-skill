@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "scope": "Same macOS host; copied skill, renamed folder containing spaces, unrelated cwd, fresh input/output; full build/render/check. Not a second physical machine or OS.",
+  "steps": [
+    {
+      "step": "manual.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "step": "render.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "step": "check.py",
+      "returncode": 0,
+      "stderr": ""
+    }
+  ],
+  "qa": {
+    "automated_checks": "passed",
+    "visual_review": "required-separately",
+    "languages": [
+      {
+        "language": "zh",
+        "pages": 5,
+        "text_coverage": "passed",
+        "toc_caches": "passed",
+        "geometry": "passed",
+        "placeholders": "none",
+        "package_relationships": "internal-only"
+      },
+      {
+        "language": "en",
+        "pages": 5,
+        "text_coverage": "passed",
+        "toc_caches": "passed",
+        "geometry": "passed",
+        "placeholders": "none",
+        "package_relationships": "internal-only"
+      }
+    ],
+    "structure": {
+      "zh": {
+        "headings": 8,
+        "tables": 1,
+        "figures": 1
+      },
+      "en": {
+        "headings": 8,
+        "tables": 1,
+        "figures": 1
+      }
+    },
+    "gap_count": 1
+  }
+}
